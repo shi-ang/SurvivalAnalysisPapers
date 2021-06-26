@@ -1,7 +1,7 @@
 # Survival Analysis Paper List
 A list of papers/resources in Survival Analysis that we have read or would like to read.
 
-Last Update Time: 2021.06.10
+Last Update Time: 2021.06.25
 - [Sections](#Survival-Analysis-Paper-List)
     - [Literature Survey](#Literature-Survey)
 	- [ML and DL for Survival Analysis](#ML-and-DL-for-Survival-Analysis)
