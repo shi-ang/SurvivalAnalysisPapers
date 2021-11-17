@@ -11,6 +11,7 @@ Last Update Time: 2021.11.16
     - [Competing Risks Models](#Competing-Risks-Models)
     - [Generalized Survival Analysis Methods](#Generalized-Survival-Analysis-Methods)
     - [Evaluation Metrics](#Evaluation-Metrics)
+    - [Causal Inference](#Causal-Inference)
     - [Temporal Time Process](#Temporal-Time-Process)
     - [Applied Survival Analysis](#Applied-Survival-Analysis)
 
