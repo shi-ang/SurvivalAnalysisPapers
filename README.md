@@ -2,7 +2,7 @@
 
 A list of papers/resources in Survival Analysis that we have read or would like to read.
 
-Last Update Time: 2021.11.16
+Last Update Time: 2022.03.24
 
 - [Sections](#Survival-Analysis-Paper-List)
     - [Literature Survey](#Literature-Survey)
@@ -41,11 +41,16 @@ Last Update Time: 2021.11.16
 |CoxTime / CoxCC|[Time-to-Event Prediction with Neural Networks and Cox Regression](https://jmlr.org/papers/volume20/18-424/18-424.pdf)|JMLR|2019.08|[PyTorch](https://github.com/havakv/pycox)|PyCox 1-3|
 |PCHazard / LogisticHazard|[Continuous and Discrete-Time Survival Prediction with Neural Networks](https://arxiv.org/abs/1910.06724)|Arxiv|2019.10|[PyTorch](https://github.com/havakv/pycox)|PyCox 2-3|
 |SurvivalQuilts|[Temporal Quilting for Survival Analysis](http://proceedings.mlr.press/v89/lee19a/lee19a.pdf)|AISTATS|2020.04|[Python](https://github.com/chl8856/SurvivalQuilts)||
+|VAECox|[Improved survival analysis by learning shared genomic information from pan-cancer data](https://academic.oup.com/bioinformatics/article/36/Supplement_1/i389/5870509)|Bioinformatics|2020.07|[Pytorch](https://github.com/dmis-lab/VAECox)||
 |X-CAL|[X-CAL: Explicit Calibration for Survival Analysis](https://arxiv.org/abs/2101.05346)|NeurIPS|2020|[PyTorch](https://github.com/rajesh-lab/X-CAL)||
 |Discrete-RPS|[Estimating Calibrated Individualized Survival Curves with Deep Learning](https://www.aaai.org/AAAI21Papers/AAAI-8472.KamranF.pdf)|AAAI|2021.02|[PyTorch](https://github.com/MLD3/Calibrated-Survival-Analysis)||
 |DCM|[Deep Cox Mixtures for Survival Regression](https://arxiv.org/pdf/2101.06536.pdf)|NeurIPS Machine Learning for Health Workshop|2021.01|[TensorFlow](https://github.com/chiragnagpal/deep_cox_mixtures)||
 |DHBN|[Using Discrete Hazard Bayesian Networks to Identify which Features are Relevant at each Time in a Survival Prediction Model](http://proceedings.mlr.press/v146/kuan21a/kuan21a.pdf)|AAAI Spring Symposium (SP-ACA)|2021.03|[R](https://github.com/kuan0911/ISDEvaluation)||
 |TDSA|[Transformer-Based Deep Survival Analysis](http://proceedings.mlr.press/v146/hu21a/hu21a.pdf)|AAAI Spring Symposium (SP-ACA)|2021.03|||
+|IWSG|[Inverse-Weighted Survival Games](https://openreview.net/forum?id=j4oYd8SGop)|NeurIPS|2021.12|[PyTorch](https://github.com/rajesh-lab/Inverse-Weighted-Survival-Games)||
+|DeepEH|[Deep Extended Hazard Models for Survival Analysis](https://openreview.net/forum?id=GUD7rNkaWKr)|NeurIPS|2021.12|||
+|KL-Calibration|[Simpler Calibration for Survival Analysis](https://openreview.net/forum?id=bB6YLDJewoK)|ICLR OpenReview|2021.10|||
+|VaDeSC|[A Deep Variational Approach to Clustering Survival Data](https://openreview.net/forum?id=RQ428ZptQfU)|ICLR|2022.03|[TensorFlow](https://github.com/i6092467/vadesc)||
 
 ***
 
@@ -69,10 +74,11 @@ Last Update Time: 2021.11.16
 ***
 
 ## Generalized Survival Analysis Methods
-|Keyword|Title|Publisher|Date|Code|Notes|
-|---|----|---|--|---|---|
-||[Adapting machine learning techniques to censored time-to-event health record data: A general-purpose approach using inverse probability of censoring weighting](https://www.sciencedirect.com/science/article/pii/S1532046416000496)|Journal of Biomedical Informatics|2016.03|[R](https://github.com/docvock/JBI_IPCW_for_ML)||
-||[A General Machine Learning Framework for Survival Analysis](https://arxiv.org/abs/2006.15442)|ECML|2020.06|[R](https://github.com/adibender/machine-learning-for-survival-ecml2020)||
+|Title|Publisher|Date|Code|Notes|
+|----|---|--|---|---|
+|[A doubly robust censoring unbiased transformation](https://pubmed.ncbi.nlm.nih.gov/22550646/)|The International Journal of Biostatistics|2007.03|||
+|[Adapting machine learning techniques to censored time-to-event health record data: A general-purpose approach using inverse probability of censoring weighting](https://www.sciencedirect.com/science/article/pii/S1532046416000496)|Journal of Biomedical Informatics|2016.03|[R](https://github.com/docvock/JBI_IPCW_for_ML)||
+|[A General Machine Learning Framework for Survival Analysis](https://arxiv.org/abs/2006.15442)|ECML|2020.06|[R](https://github.com/adibender/machine-learning-for-survival-ecml2020)||
 
 ***
 
@@ -90,11 +96,13 @@ Last Update Time: 2021.11.16
 ***
 
 ## Causal Inference
-|Title|Publisher|Date|Code|Notes|
-|----|---|--|---|---|
-|[Causal inference in survival analysis using pseudo-observations](https://onlinelibrary.wiley.com/doi/10.1002/sim.7297)|Statistics in Medicine|2017.03|||
-|[Causal Inference for Survival Analysis](https://arxiv.org/pdf/1803.08218.pdf)|Arvix|2018.03|[R](https://github.com/vikas84bf/causalTree)||
-|[SurvITE: Learning Heterogeneous Treatment Effects from Time-to-Event Data](https://arxiv.org/pdf/2110.14001.pdf)|NeurIPS|2021.10|[TensorFlow](https://github.com/chl8856/survITE)||
+|Keyword|Title|Publisher|Date|Code|Notes|
+|---|----|---|--|---|---|
+||[Causal inference in survival analysis using pseudo-observations](https://onlinelibrary.wiley.com/doi/10.1002/sim.7297)|Statistics in Medicine|2017.03|||
+|CausalTree|[Causal Inference for Survival Analysis](https://arxiv.org/pdf/1803.08218.pdf)|Arvix|2018.03|[R](https://github.com/vikas84bf/causalTree)||
+|CSA|[Enabling Counterfactual Survival Analysis with Balanced Representations](https://arxiv.org/abs/2006.07756)|ACM CHIL|2021.03|[Python](https://github.com/paidamoyo/counterfactual_survival_analysis)||
+|SurvITE|[SurvITE: Learning Heterogeneous Treatment Effects from Time-to-Event Data](https://arxiv.org/pdf/2110.14001.pdf)|NeurIPS|2021.10|[TensorFlow](https://github.com/chl8856/survITE)||
+|CMHE|[Counterfactual Phenotyping with Censored Time-to-Events](https://arxiv.org/abs/2202.11089)|Arxiv|2022.02|[PyTorch](https://autonlab.github.io/auton-survival/cmhe/)||
 
 ***
 
@@ -109,3 +117,4 @@ Last Update Time: 2021.11.16
 |----|---|--|---|---|
 |[Machine-Learning Approaches in COVID-19 Survival Analysis and Discharge-Time Likelihood Prediction Using Clinical Data](https://www.sciencedirect.com/science/article/pii/S2666389920300945)|Patterns|2020.08|[Python](https://github.com/Mnemati/Machine-Learning-Approaches-in-COVID-19-Survival-Analysis)||
 |[Application of a novel machine learning framework for predicting non-metastatic prostate cancer-specific mortality in men using the Surveillance, Epidemiology, and End Results (SEER) database](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30314-9/fulltext)|Lancet Digital Health|2021.03|[Python](https://bitbucket.org/mvdschaar/mlforhealthlabpub/src/master/alg/)||
+|[Learning accurate personalized survival models for predicting hospital discharge and mortality of COVID-19 patients](https://www.nature.com/articles/s41598-022-08601-6)|Scientific Report|2022.03|[R](https://github.com/kuan0911/ISDEvaluation-covid)||
