@@ -28,6 +28,7 @@ Last Update Time: 2022.03.24
 ***
 
 ## ML and DL for Survival Analysis
+
 |Keyword|Title|Publisher|Date|Code|Notes|
 |---|----|--|--|---|---|
 |GBMCOX|[The State of Boosting](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.22.276&rep=rep1&type=pdf)|Computing Science and Statistics|2008|[R](https://github.com/gbm-developers/gbm)||
@@ -55,6 +56,7 @@ Last Update Time: 2022.03.24
 ***
 
 ## Time-varying Covariates Models
+
 |Keyword|Title|Publisher|Date|Code|Notes|
 |---|----|--|--|---|---|
 |SPH|[Survival Prediction by an Integrated Learning Criterion on Intermittently Varying Healthcare Data](https://ojs.aaai.org/index.php/AAAI/article/view/9999)|AAAI|2016.02|||
@@ -66,6 +68,7 @@ Last Update Time: 2022.03.24
 ***
 
 ## Competing Risks Models
+
 |Keyword|Title|Publisher|Date|Code|Notes|
 |---|----|--|--|---|---|
 |DeepHit|[DeepHit: A Deep Learning Approach to Survival Analysis with Competing Risks](http://medianetlab.ee.ucla.edu/papers/AAAI_2018_DeepHit.pdf)|AAAI|2018.02|||
@@ -74,6 +77,7 @@ Last Update Time: 2022.03.24
 ***
 
 ## Generalized Survival Analysis Methods
+
 |Title|Publisher|Date|Code|Notes|
 |----|---|--|---|---|
 |[A doubly robust censoring unbiased transformation](https://pubmed.ncbi.nlm.nih.gov/22550646/)|The International Journal of Biostatistics|2007.03|||
@@ -83,6 +87,7 @@ Last Update Time: 2022.03.24
 ***
 
 ## Evaluation Metrics
+
 |Keyword|Title|Publisher|Date|Code|Notes|
 |---|----|---|--|---|---|
 |Brier Score Decomposition|[The Comparison and Evaluation of Forecasters](https://www.jstor.org/stable/2987588)|The Statistician|1983|||
@@ -96,6 +101,7 @@ Last Update Time: 2022.03.24
 ***
 
 ## Causal Inference
+
 |Keyword|Title|Publisher|Date|Code|Notes|
 |---|----|---|--|---|---|
 ||[Causal inference in survival analysis using pseudo-observations](https://onlinelibrary.wiley.com/doi/10.1002/sim.7297)|Statistics in Medicine|2017.03|||
@@ -107,12 +113,14 @@ Last Update Time: 2022.03.24
 ***
 
 ## Temporal Time Process
+
 |Title|Publisher|Date|Code|Notes|
 |----|---|--|---|---|
 |[Lecture Notes: Temporal Point Processes and the Conditional Intensity Function](https://arxiv.org/abs/1806.00221)|Arxiv|2018.06|||
 ***
 
 ## Applied Survival Analysis
+
 |Title|Publisher|Date|Code|Notes|
 |----|---|--|---|---|
 |[Machine-Learning Approaches in COVID-19 Survival Analysis and Discharge-Time Likelihood Prediction Using Clinical Data](https://www.sciencedirect.com/science/article/pii/S2666389920300945)|Patterns|2020.08|[Python](https://github.com/Mnemati/Machine-Learning-Approaches-in-COVID-19-Survival-Analysis)||
