@@ -2,7 +2,7 @@
 
 A list of papers/resources in Survival Analysis that we have read or would like to read.
 
-Last Update Time: 2022.11.02
+Last Update Time: 2022.12.23
 
 - [Sections](#Survival-Analysis-Paper-List)
     - [Literature Survey](#Literature-Survey)
@@ -34,6 +34,7 @@ Last Update Time: 2022.11.02
 |---|----|--|--|---|---|
 |GBMCOX|[The State of Boosting](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.22.276&rep=rep1&type=pdf)|Computing Science and Statistics|2008|[R](https://github.com/gbm-developers/gbm)||
 |RSF|[Random Survival Forest](https://arxiv.org/pdf/0811.1645.pdf)|The Annals of Applied Statistics|2008|[R](https://kogalur.github.io/randomForestSRC/)||
+|Pseudo-observations|[Pseudo-observations in survival analysis](https://pubmed.ncbi.nlm.nih.gov/19654170/)|Statistical Methods in Medical Research|2010|||
 |MTLR|[Learning Patient-Specific Cancer Survival Distributions as a Sequence of Dependent Regressors](http://www.cs.cornell.edu/~cnyu/papers/nips11_survival.pdf)|NeurIPS|2011|[R](https://cran.r-project.org/web/packages/MTLR/index.html)|[Poster](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.482.8967&rep=rep1&type=pdf)|
 |GBMCI|[A Gradient Boosting Algorithm for Survival Analysis via Direct Optimazation of Concordance Index](https://www.hindawi.com/journals/cmmm/2013/873595/)|Computational and Mathematical Methods in Medicine|2013.09|[R](https://github.com/uci-cbcl/GBMCI)||
 |N-MTLR|[Deep Neural Networks for Survival Analysis Based on a Multi-Task Framework](https://arxiv.org/abs/1801.05512)|Arxiv|2018.01|[Python](https://square.github.io/pysurvival/)||
@@ -56,8 +57,11 @@ Last Update Time: 2022.11.02
 |DeepEH|[Deep Extended Hazard Models for Survival Analysis](https://openreview.net/forum?id=GUD7rNkaWKr)|NeurIPS|2021.12|||
 |KL-Calibration|[Simpler Calibration for Survival Analysis](https://openreview.net/forum?id=bB6YLDJewoK)|ICLR OpenReview|2021.10|||
 |VaDeSC|[A Deep Variational Approach to Clustering Survival Data](https://openreview.net/forum?id=RQ428ZptQfU)|ICLR|2022.03|[TensorFlow](https://github.com/i6092467/vadesc)||
+|SuMo-net|[Survival regression with proper scoring rules and monotonic neural networks](https://proceedings.mlr.press/v151/rindt22a.html)|AIStats|2022.03|[PyTorch](https://github.com/MrHuff/Sumo-Net)||
 |Survival MDN|[Survival Mixture Density Networks](https://arxiv.org/pdf/2208.10759.pdf)|ML4HC|2022.05|[PyTorch](https://github.com/XintianHan/Survival-MDN)||
 |SODEN|[SODEN: A Scalable Continuous-Time Survival Model through Ordinary Differential Equation Networks](https://arxiv.org/pdf/2008.08637.pdf)|JMLR|2022|[PyTorch](https://github.com/XintianHan/Survival-MDN)||
+|TCSA|[Temporally-Consistent Survival Analysis](https://openreview.net/pdf?id=r-CsquKaHvk)|NeurIPS|2022.11|[Python](https://github.com/spotify-research/tdsurv)||
+|MSSDA|[Multi-Source Survival Domain Adaptation](https://arxiv.org/pdf/2212.00424.pdf)|AAAI|2023|||
 ***
 
 ## Time-varying Covariates Models
@@ -76,6 +80,7 @@ Last Update Time: 2022.11.02
 
 |Keyword|Title|Publisher|Date|Code|Notes|
 |---|----|--|--|---|---|
+||[On pseudo-values for regression analysis in competing risks models](https://pubmed.ncbi.nlm.nih.gov/19051013/)|Lifetime Data Analysis|2009.06|||
 |DeepHit|[DeepHit: A Deep Learning Approach to Survival Analysis with Competing Risks](http://medianetlab.ee.ucla.edu/papers/AAAI_2018_DeepHit.pdf)|AAAI|2018.02|||
 |SurvTRACE|[SurvTRACE: Transformers for Survival Analysis with Competing Events](https://arxiv.org/abs/2110.00855)|Arxiv|2021.10|[Pytorch](https://github.com/RyanWangZf/SurvTRACE)||
 |Deep-CSA|[Deep-CSA: Deep Contrastive Learning for Dynamic Survival Analysis with Competing Risks](https://ieeexplore.ieee.org/abstract/document/9756287)|IEEE Journal of Biomedical and Health Informatics|2022.04|||
@@ -103,6 +108,7 @@ Last Update Time: 2022.11.02
 |Graphical-Cal|[Graphical calibration curves and the integrated calibration index (ICI) for survival models](https://onlinelibrary.wiley.com/doi/epdf/10.1002/sim.8570)|Statistics in Medicine|2019.11|[Python](https://lifelines.readthedocs.io/en/latest/lifelines.calibration.html)||
 |D-Calibration|[Effective Ways to Build and Evaluate Individual Survival Distributions](https://jmlr.org/papers/volume21/18-772/18-772.pdf)|JMLR|2020.06|[R](https://github.com/haiderstats/ISDEvaluation)||
 |KSD|[Kernelized Stein Discrepancy Tests of Goodness-of-fit for Time-to-Event Data](https://arxiv.org/abs/2008.08397)|ICML|2020.08|||
+||[Scoring rules in survival analysis](https://arxiv.org/abs/2212.05260)|Arxiv|2022.12|||
 
 ***
 
@@ -130,8 +136,10 @@ Last Update Time: 2022.11.02
 
 |Title|Publisher|Date|Code|Notes|
 |----|---|--|---|---|
+|[Empirical comparisons between Kaplan-Meier and Nelson-Aalen survival function estimators](https://www.tandfonline.com/doi/abs/10.1080/00949650212847)|Journal of Statistical Computation and Simulation|2002|||
 |[Machine-Learning Approaches in COVID-19 Survival Analysis and Discharge-Time Likelihood Prediction Using Clinical Data](https://www.sciencedirect.com/science/article/pii/S2666389920300945)|Patterns|2020.08|[Python](https://github.com/Mnemati/Machine-Learning-Approaches-in-COVID-19-Survival-Analysis)||
 |[Application of a novel machine learning framework for predicting non-metastatic prostate cancer-specific mortality in men using the Surveillance, Epidemiology, and End Results (SEER) database](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30314-9/fulltext)|Lancet Digital Health|2021.03|[Python](https://bitbucket.org/mvdschaar/mlforhealthlabpub/src/master/alg/)||
 |[Learning accurate personalized survival models for predicting hospital discharge and mortality of COVID-19 patients](https://www.nature.com/articles/s41598-022-08601-6)|Scientific Report|2022.03|[R](https://github.com/kuan0911/ISDEvaluation-covid)||
 |[Predicting Time-to-conversion for Dementia of Alzheimer's Type using Multi-modal Deep Survival Analysis](https://arxiv.org/pdf/2205.01188.pdf)|Arxiv|2022.05|||
 |[Time-to-event modeling for hospital length of stay prediction for COVID-19 patients](https://www.sciencedirect.com/science/article/pii/S2666827022000603)|Machine Learning with Applications|2022.09|||
+|[Personalized breast cancer onset prediction from lifestyle and health history information](https://journals.plos.org/plosone/article/authors?id=10.1371/journal.pone.0279174)|PLOS One|2022.12|||
