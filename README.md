@@ -2,7 +2,7 @@
 
 A list of papers/resources in Survival Analysis that we have read or would like to read.
 
-Last Update Time: 2022.03.08
+Last Update Time: 2022.03.25
 
 - [Sections](#Survival-Analysis-Paper-List)
     - [Literature Survey](#Literature-Survey)
@@ -64,11 +64,11 @@ Last Update Time: 2022.03.08
 |SODEN|[SODEN: A Scalable Continuous-Time Survival Model through Ordinary Differential Equation Networks](https://arxiv.org/pdf/2008.08637.pdf)|JMLR|2022|[PyTorch](https://github.com/XintianHan/Survival-MDN)||
 |FISA|[Fair and Interpretable Models for Survival Analysis](https://dl.acm.org/doi/10.1145/3534678.3539259)|KDD|2022.08|||
 |DeepPseudo|[DeepPseudo: Pseudo Value Based Deep Learning Models for Competing Risk Analysis](https://arxiv.org/pdf/2207.05247.pdf)|KDD DSHealth Workshop|2022.08|||
+|DCS|[Deep Learning-Based Discrete Calibrated Survival Prediction](https://arxiv.org/pdf/2208.08182.pdf)|ICDH|2022.08|[PyTorch](https://github.com/imsb-uke/dcsurv)||
 |TCSA|[Temporally-Consistent Survival Analysis](https://openreview.net/pdf?id=r-CsquKaHvk)|NeurIPS|2022.11|[Python](https://github.com/spotify-research/tdsurv)|[Poster](https://neurips.cc/media/PosterPDFs/NeurIPS%202022/118bd558033a1016fcc82560c65cca5f.png?t=1667814990.0636194)|
 |CQRNN|[Censored Quantile Regression Neural Networks for Distribution-Free Survival Analysis](https://arxiv.org/abs/2205.13496)|NeurIPS|2022.11|[PyTorth](https://github.com/TeaPearce/Censored_Quantile_Regression_NN)|[Poster](https://neurips.cc/media/PosterPDFs/NeurIPS%202022/55198.png?t=1669392940.4432118)|
 |MSSDA|[Multi-Source Survival Domain Adaptation](https://arxiv.org/pdf/2212.00424.pdf)|AAAI|2023|||
-|SurvivalGAN|[Multi-Source Survival Domain Adaptation](https://arxiv-export3.library.cornell.edu/abs/2302.12749)|AIStats|2023.02|[PyTorch](https://github.com/vanderschaarlab/survivalgan)||
-
+|SurvivalGAN|[SurvivalGAN: Generating Time-to-Event Data for Survival Analysis](https://arxiv-export3.library.cornell.edu/abs/2302.12749)|AIStats|2023.02|[PyTorch](https://github.com/vanderschaarlab/survivalgan)||
 ***
 
 ## Time-varying Covariates Models
