@@ -2,7 +2,7 @@
 
 A list of papers/resources in Survival Analysis that we have read or would like to read.
 
-Last Update Time: 2022.03.25
+Last Update Time: 2022.05.02
 
 - [Sections](#Survival-Analysis-Paper-List)
     - [Literature Survey](#Literature-Survey)
@@ -39,6 +39,7 @@ Last Update Time: 2022.03.25
 |GBMCI|[A Gradient Boosting Algorithm for Survival Analysis via Direct Optimazation of Concordance Index](https://www.hindawi.com/journals/cmmm/2013/873595/)|Computational and Mathematical Methods in Medicine|2013.09|[R](https://github.com/uci-cbcl/GBMCI)||
 |N-MTLR|[Deep Neural Networks for Survival Analysis Based on a Multi-Task Framework](https://arxiv.org/abs/1801.05512)|Arxiv|2018.01|[Python](https://square.github.io/pysurvival/)||
 |DeepSurv|[DeepSurv: personalized treatment recommender system using a Cox proportional hazards deep neural network](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-018-0482-1)|BMC Medical Research Methodology|2018.02|[Python](https://github.com/jaredleekatzman/DeepSurv)||
+|DATE & DRAFT|[Adversarial Time-to-Event Modeling](https://arxiv.org/abs/1804.03184)|ICML|2018.07|[TensorFlow](https://github.com/paidamoyo/adversarial_time_to_event)||
 |Survival-CRPS|[Countdown Regression: Sharp and Calibrated Survival Predictions](https://arxiv.org/abs/1806.08324)|UAI|2019|[PyTorch](https://github.com/stanfordmlgroup/cdr-mimic)||
 |SPIE|[Simultaneous Prediction Intervals for Patient-Specific Survival Curves](https://www.ijcai.org/Proceedings/2019/0828.pdf)|IJCAI|2019|[Python](https://github.com/ssokota/spie)||
 |CoxTime / CoxCC|[Time-to-Event Prediction with Neural Networks and Cox Regression](https://jmlr.org/papers/volume20/18-424/18-424.pdf)|JMLR|2019.08|[PyTorch](https://github.com/havakv/pycox)|PyCox 1-3|
@@ -47,6 +48,7 @@ Last Update Time: 2022.03.25
 |SCA|[Survival Cluster Analysis](https://dl.acm.org/doi/pdf/10.1145/3368555.3384465)|ACM CHIL|2020.04|[TensorFlow](https://github.com/paidamoyo/survival_cluster_analysis)||
 |VAECox|[Improved survival analysis by learning shared genomic information from pan-cancer data](https://academic.oup.com/bioinformatics/article/36/Supplement_1/i389/5870509)|Bioinformatics|2020.07|[Pytorch](https://github.com/dmis-lab/VAECox)||
 |SurvLIME|[SurvLIME: A method for explaining machine learning survival models](https://www.sciencedirect.com/science/article/abs/pii/S0950705120304044)|Knowledge-Based Systems|2020.09|||
+|SFM|[Calibration and Uncertainty in Neural Time-to-Event Modeling](https://ieeexplore.ieee.org/document/9244076)|TNNLS|2020.09|[TensorFlow](https://github.com/paidamoyo/calibration_uncertainty_t2e)||
 |X-CAL|[X-CAL: Explicit Calibration for Survival Analysis](https://arxiv.org/abs/2101.05346)|NeurIPS|2020|[PyTorch](https://github.com/rajesh-lab/X-CAL)||
 |Discrete-RPS|[Estimating Calibrated Individualized Survival Curves with Deep Learning](https://www.aaai.org/AAAI21Papers/AAAI-8472.KamranF.pdf)|AAAI|2021.02|[PyTorch](https://github.com/MLD3/Calibrated-Survival-Analysis)||
 |DCM|[Deep Cox Mixtures for Survival Regression](https://arxiv.org/pdf/2101.06536.pdf)|NeurIPS Machine Learning for Health Workshop|2021.01|[TensorFlow](https://github.com/chiragnagpal/deep_cox_mixtures)||
@@ -100,8 +102,8 @@ Last Update Time: 2022.03.25
 |----|---|--|---|---|
 |[A doubly robust censoring unbiased transformation](https://pubmed.ncbi.nlm.nih.gov/22550646/)|The International Journal of Biostatistics|2007.03|||
 |[Adapting machine learning techniques to censored time-to-event health record data: A general-purpose approach using inverse probability of censoring weighting](https://www.sciencedirect.com/science/article/pii/S1532046416000496)|Journal of Biomedical Informatics|2016.03|[R](https://github.com/docvock/JBI_IPCW_for_ML)||
+|[Bias in Cross-Entropy-Based Training of Deep Survival Networks](https://ieeexplore.ieee.org/document/9028113)|TPAMI|2020.03|||
 |[A General Machine Learning Framework for Survival Analysis](https://arxiv.org/abs/2006.15442)|ECML|2020.06|[R](https://github.com/adibender/machine-learning-for-survival-ecml2020)||
-
 ***
 
 ## Evaluation Metrics
