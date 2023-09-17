@@ -1,10 +1,10 @@
 # Survival Analysis Paper List
 
-A list of papers/resources in Survival Analysis that we have read or would like to read.
+A list of papers/resources in Survival Analysis that I have read or would like to read.
 
-Last Update Time: 2023.08.07
+Last Update Time: 2023.09.17
 
-- [Sections](#Survival-Analysis-Paper-List)
+- [Categories](#Survival-Analysis-Paper-List)
     - [Literature Survey](#Literature-Survey)
 	- [ML and DL for Survival Analysis](#ML-and-DL-for-Survival-Analysis)
     - [Objective Functions](#objective-functions)
@@ -18,6 +18,7 @@ Last Update Time: 2023.08.07
     - [Temporal Time Process](#Temporal-Time-Process)
     - [Applied Survival Analysis](#Applied-Survival-Analysis)
 
+*Please note that some papers may belong to multiple categories. However, I've organized them according to their most significant contribution.
 ***
 
 ## Literature Survey
@@ -64,8 +65,8 @@ Last Update Time: 2023.08.07
 |DCS|[Deep Learning-Based Discrete Calibrated Survival Prediction](https://arxiv.org/pdf/2208.08182.pdf)|ICDH|2022.08|[PyTorch](https://github.com/imsb-uke/dcsurv)||
 |CQRNN|[Censored Quantile Regression Neural Networks for Distribution-Free Survival Analysis](https://arxiv.org/abs/2205.13496)|NeurIPS|2022.11|[PyTorth](https://github.com/TeaPearce/Censored_Quantile_Regression_NN)|[Poster](https://neurips.cc/media/PosterPDFs/NeurIPS%202022/55198.png?t=1669392940.4432118)|
 |MSSDA|[Multi-Source Survival Domain Adaptation](https://arxiv.org/pdf/2212.00424.pdf)|AAAI|2023|||
+|CSA|[Conformalized survival analysis](https://academic.oup.com/jrsssb/article/85/1/24/7008653)|JRSS: Series B|2023.01|[R](https://github.com/zhimeir/cfsurvival)||
 |SurvivalGAN|[SurvivalGAN: Generating Time-to-Event Data for Survival Analysis](https://proceedings.mlr.press/v206/norcliffe23a/norcliffe23a.pdf)|AIStats|2023.02|[PyTorch](https://github.com/vanderschaarlab/survivalgan)||
-
 ***
 ## Objective Functions
 |Keyword|Title|Publisher|Date|Code|Notes|
@@ -154,7 +155,7 @@ Last Update Time: 2023.08.07
 |CausalTree|[Causal Inference for Survival Analysis](https://arxiv.org/pdf/1803.08218.pdf)|Arvix|2018.03|[R](https://github.com/vikas84bf/causalTree)||
 |CSA|[Enabling Counterfactual Survival Analysis with Balanced Representations](https://arxiv.org/abs/2006.07756)|ACM CHIL|2021.03|[Python](https://github.com/paidamoyo/counterfactual_survival_analysis)||
 |SurvITE|[SurvITE: Learning Heterogeneous Treatment Effects from Time-to-Event Data](https://arxiv.org/pdf/2110.14001.pdf)|NeurIPS|2021.10|[TensorFlow](https://github.com/chl8856/survITE)||
-|CMHE|[Counterfactual Phenotyping with Censored Time-to-Events](https://arxiv.org/abs/2202.11089)|Arxiv|2022.02|[PyTorch](https://autonlab.github.io/auton-survival/cmhe/)||
+|CMHE|[Counterfactual Phenotyping with Censored Time-to-Events](https://arxiv.org/abs/2202.11089)|KDD|2022.02|[PyTorch](https://autonlab.github.io/auton-survival/cmhe/)||
 |DNMC|[Disentangling Whether from When in a Neural Mixture Cure Model for Failure Time Data](https://proceedings.mlr.press/v151/engelhard22a/engelhard22a.pdf)|AISTATS|2022.03|[TensorFlow](https://github.com/mengelhard/dnmc/)||
 |compCATE|[Understanding the Impact of Competing Events on Heterogeneous Treatment Effect Estimation from Time-to-Event Data](https://arxiv.org/pdf/2302.12718v1.pdf)|AISTATS|2023.02|[Python](https://github.com/AliciaCurth/CompCATE)||
 
