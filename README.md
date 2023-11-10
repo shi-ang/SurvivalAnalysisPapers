@@ -2,7 +2,7 @@
 
 A list of papers/resources in Survival Analysis that I have read or would like to read.
 
-Last Update Time: 2023.09.17
+Last Update Time: 2023.11.10
 
 - [Categories](#Survival-Analysis-Paper-List)
     - [Literature Survey](#Literature-Survey)
@@ -67,6 +67,10 @@ Last Update Time: 2023.09.17
 |MSSDA|[Multi-Source Survival Domain Adaptation](https://arxiv.org/pdf/2212.00424.pdf)|AAAI|2023|||
 |CSA|[Conformalized survival analysis](https://academic.oup.com/jrsssb/article/85/1/24/7008653)|JRSS: Series B|2023.01|[R](https://github.com/zhimeir/cfsurvival)||
 |SurvivalGAN|[SurvivalGAN: Generating Time-to-Event Data for Survival Analysis](https://proceedings.mlr.press/v206/norcliffe23a/norcliffe23a.pdf)|AIStats|2023.02|[PyTorch](https://github.com/vanderschaarlab/survivalgan)||
+|NSOTree|[Neural Survival Oblique Tree](https://arxiv.org/pdf/2309.13825.pdf)|Arxiv|2023.09|[Code](https://github.com/xs018/NSOTree)||
+|NNCDE|[Conditional Distribution Function Estimation Using Neural Networks for Censored and Uncensored Data](https://www.jmlr.org/papers/volume24/22-0657/22-0657.pdf)|JMLR|2023.12|[PyTorch](https://github.com/bingqing0729/NNCDE)||
+|NFM|[Neural Frailty Machine: Beyond proportional hazard assumption in neural survival regressions](https://openreview.net/forum?id=3Fc9gnR0fa)|NeurIPS|2023.12|[PyTorch](https://github.com/Rorschach1989/nfm)||
+|Diffsurv|[Differentiable sorting for censored time-to-event data](https://openreview.net/forum?id=gYWjI7wLhc)|NeurIPS|2023.12|[PyTorch](https://github.com/andre-vauvelle/diffsurv)||
 ***
 ## Objective Functions
 |Keyword|Title|Publisher|Date|Code|Notes|
@@ -88,9 +92,11 @@ Last Update Time: 2023.09.17
 |Time-varying Cox|[Time-varying covariates and coefficients in Cox regression models](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6015946/)|Annals of Translational Medicine|2018.01|||
 |DRSA|[Deep Recurrent Survival Analysis](https://ojs.aaai.org/index.php/AAAI/article/view/4407)|AAAI|2019.02|[TensorFlow](https://github.com/rk2900/DRSA)||
 |TSNN|[Time-Dependent Survival Neural Network for Remaining Useful Life Prediction](https://link.springer.com/chapter/10.1007/978-3-030-16148-4_34)|PAKDD|2019.03|||
+|Dynamic-DeepHit|[Dynamic-DeepHit: A Deep Learning Approach for Dynamic Survival Analysis With Competing Risks Based on Longitudinal Data](https://ieeexplore.ieee.org/document/8681104)|TBME|2019.04|[PyTorch](https://github.com/chl8856/Dynamic-DeepHit)||
 |TSNN & RSNN|[Survival neural networks for time-to-event prediction in longitudinal study](https://link.springer.com/article/10.1007%2Fs10115-020-01472-1)|Knowledge and Information System|2020.05||Extend Paper|
 |DRSM|[Deep Parametric Time-to-Event Regression with Time-Varying Covariates](http://proceedings.mlr.press/v146/nagpal21a.html)|AAAI Spring Symposium (SP-ACA)|2021.03|[PyTorch](https://autonlab.github.io/DeepSurvivalMachines/#deep-recurrent-survival-machines)||
 |TCSA|[Temporally-Consistent Survival Analysis](https://proceedings.neurips.cc/paper_files/paper/2022/hash/455e1e30edf721bd7fa334fffabdcad8-Abstract-Conference.html)|NeurIPS|2022.11|[Python](https://github.com/spotify-research/tdsurv)|[Poster](https://neurips.cc/media/PosterPDFs/NeurIPS%202022/118bd558033a1016fcc82560c65cca5f.png?t=1667814990.0636194)|
+|SurvPP|[Survival Permanental Processes for Survival Analysis with Time-Varying Covariates](https://openreview.net/forum?id=CYCzfXn6cZ)|NeurIPS|2023.12|[Python](https://github.com/HidKim/SurvPP)||
 ***
 
 ## Explainable Survival Models
@@ -185,3 +191,4 @@ Last Update Time: 2023.09.17
 |[Personalized breast cancer onset prediction from lifestyle and health history information](https://journals.plos.org/plosone/article/authors?id=10.1371/journal.pone.0279174)|PLOS One|2022.12|||
 |[SurProGenes: Survival Risk-Ordered Representation of Cancer Patients and Genes for the Identification of Prognostic Genes](https://openreview.net/forum?id=t4COq27gBs)|ICML|2023.06|[TensorFLow](https://github.com/JunetaeKim/SurProGenes)|[Poster](https://icml.cc/media/PosterPDFs/ICML%202023/25067.png?t=1686635672.8107529)|
 |[Semi-Parametric Contextual Pricing Algorithm using Cox Proportional Hazards Model](https://openreview.net/forum?id=wkr4r2Cw3i)|ICML|2023.06|[Code](https://github.com/younggeunchoi/CoxContextualPricing)|[Poster](https://icml.cc/media/PosterPDFs/ICML%202023/24954.png?t=1688273092.4951394)|
+|[Contrastive Learning of Temporal Distinctiveness for Survival Analysis in Electronic Health Records](https://dl.acm.org/doi/10.1145/3583780.3614824)|CIKM|2023.10|[Python](https://github.com/mohsen-nyb/OTCSurv)||
