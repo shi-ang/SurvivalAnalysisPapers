@@ -1,8 +1,8 @@
 # Survival Analysis Paper List
 
-A list of papers/resources in Survival Analysis that I have read or would like to read.
+A list of papers/resources in Survival Analysis that I have read or would like to read. Should you wish to suggest an addition to this list, please feel free to open an issue.
 
-Last Update Time: 2023.11.10
+Last Update Time: 2024.02.15
 
 - [Categories](#Survival-Analysis-Paper-List)
     - [Literature Survey](#Literature-Survey)
@@ -18,7 +18,7 @@ Last Update Time: 2023.11.10
     - [Temporal Time Process](#Temporal-Time-Process)
     - [Applied Survival Analysis](#Applied-Survival-Analysis)
 
-*Please note that some papers may belong to multiple categories. However, I've organized them according to their most significant contribution.
+*Please note that some papers may belong to multiple categories. However, I've organized them according to their most significant contribution (purely subjective).
 ***
 
 ## Literature Survey
@@ -31,6 +31,7 @@ Last Update Time: 2023.11.10
 |[Survival analysis—time-to-event data and censoring](https://www.nature.com/articles/s41592-022-01563-7)|Nature Methods|2022.04|||
 |[Survey: Strategies for Loss-Based Discrete-Time Hazard and Survival Function Estimation](https://ieeexplore.ieee.org/document/9952504)|ICTC|2022.10|||
 |[Regression modeling of time-to-event data with censoring](https://www.nature.com/articles/s41592-022-01689-8)|Nature Methods|2022.11|||
+|[Factors influencing clinician and patient interaction with machine learning-based risk prediction models: a systematic review](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(23)00241-8/fulltext)|Lancet Digital Health|2024.02|||
 ***
 
 ## ML and DL for Survival Analysis
@@ -71,6 +72,8 @@ Last Update Time: 2023.11.10
 |NNCDE|[Conditional Distribution Function Estimation Using Neural Networks for Censored and Uncensored Data](https://www.jmlr.org/papers/volume24/22-0657/22-0657.pdf)|JMLR|2023.12|[PyTorch](https://github.com/bingqing0729/NNCDE)||
 |NFM|[Neural Frailty Machine: Beyond proportional hazard assumption in neural survival regressions](https://openreview.net/forum?id=3Fc9gnR0fa)|NeurIPS|2023.12|[PyTorch](https://github.com/Rorschach1989/nfm)||
 |Diffsurv|[Differentiable sorting for censored time-to-event data](https://openreview.net/forum?id=gYWjI7wLhc)|NeurIPS|2023.12|[PyTorch](https://github.com/andre-vauvelle/diffsurv)||
+|DCSurvival|[Deep Copula-Based Survival Analysis for Dependent Censoring with Identifiability Guarantees](https://arxiv.org/pdf/2312.15566.pdf)|AAAI|2023.12|[PyTorch](https://github.com/WeijiaZhang24/DCSurvival)||
+|OSST|[Optimal Sparse Survival Trees](https://arxiv.org/pdf/2401.15330.pdf)|AIStats|2024.01|||
 ***
 ## Objective Functions
 |Keyword|Title|Publisher|Date|Code|Notes|
@@ -175,6 +178,7 @@ Last Update Time: 2023.11.10
 |[Temporal Point Processes](https://courses.mpi-sws.org/hcml-ws18/lectures/TPP.pdf)|Course Material|2019.01|||
 |[Recent Advance in Temporal Point Process: from Machine Learning Perspective](https://thinklab.sjtu.edu.cn/src/pp_survey.pdf)||2019|||
 |[Wavelet Reconstruction Networks for Marked Point Processes](https://proceedings.mlr.press/v146/weiss21a.html)|AAAI Spring Symposium (SP-ACA)|2021.03|[Python](https://github.com/jcweiss2/wrnppl/tree/master)||
+|[Decoupled Marked Temporal Point Process using Neural Ordinary Differential Equations](https://openreview.net/forum?id=BuFNoKBiMs)|ICLR|2024.01|||
 ***
 
 ## Applied Survival Analysis
@@ -192,3 +196,4 @@ Last Update Time: 2023.11.10
 |[SurProGenes: Survival Risk-Ordered Representation of Cancer Patients and Genes for the Identification of Prognostic Genes](https://openreview.net/forum?id=t4COq27gBs)|ICML|2023.06|[TensorFLow](https://github.com/JunetaeKim/SurProGenes)|[Poster](https://icml.cc/media/PosterPDFs/ICML%202023/25067.png?t=1686635672.8107529)|
 |[Semi-Parametric Contextual Pricing Algorithm using Cox Proportional Hazards Model](https://openreview.net/forum?id=wkr4r2Cw3i)|ICML|2023.06|[Code](https://github.com/younggeunchoi/CoxContextualPricing)|[Poster](https://icml.cc/media/PosterPDFs/ICML%202023/24954.png?t=1688273092.4951394)|
 |[Contrastive Learning of Temporal Distinctiveness for Survival Analysis in Electronic Health Records](https://dl.acm.org/doi/10.1145/3583780.3614824)|CIKM|2023.10|[Python](https://github.com/mohsen-nyb/OTCSurv)||
+|[Prototypical Information Bottlenecking and Disentangling for Multimodal Cancer Survival Prediction](https://arxiv.org/pdf/2401.01646.pdf)|ICLR|2024.01|[Python](https://github.com/zylbuaa/PIBD)||
