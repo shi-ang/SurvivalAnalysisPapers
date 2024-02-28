@@ -2,7 +2,7 @@
 
 A list of papers/resources in Survival Analysis that I have read or would like to read. Should you wish to suggest an addition to this list, please feel free to open an issue.
 
-Last Update Time: 2024.02.15
+Last Update Time: 2024.02.28
 
 - [Categories](#Survival-Analysis-Paper-List)
     - [Literature Survey](#Literature-Survey)
@@ -15,6 +15,7 @@ Last Update Time: 2024.02.15
     - [Generalized Survival Analysis Methods](#Generalized-Survival-Analysis-Methods)
     - [Evaluation Metrics](#Evaluation-Metrics)
     - [Causal Inference](#Causal-Inference)
+    - [Dependent Censoring](#Dependent-Censoring)
     - [Temporal Time Process](#Temporal-Time-Process)
     - [Applied Survival Analysis](#Applied-Survival-Analysis)
 
@@ -72,7 +73,6 @@ Last Update Time: 2024.02.15
 |NNCDE|[Conditional Distribution Function Estimation Using Neural Networks for Censored and Uncensored Data](https://www.jmlr.org/papers/volume24/22-0657/22-0657.pdf)|JMLR|2023.12|[PyTorch](https://github.com/bingqing0729/NNCDE)||
 |NFM|[Neural Frailty Machine: Beyond proportional hazard assumption in neural survival regressions](https://openreview.net/forum?id=3Fc9gnR0fa)|NeurIPS|2023.12|[PyTorch](https://github.com/Rorschach1989/nfm)||
 |Diffsurv|[Differentiable sorting for censored time-to-event data](https://openreview.net/forum?id=gYWjI7wLhc)|NeurIPS|2023.12|[PyTorch](https://github.com/andre-vauvelle/diffsurv)||
-|DCSurvival|[Deep Copula-Based Survival Analysis for Dependent Censoring with Identifiability Guarantees](https://arxiv.org/pdf/2312.15566.pdf)|AAAI|2023.12|[PyTorch](https://github.com/WeijiaZhang24/DCSurvival)||
 |OSST|[Optimal Sparse Survival Trees](https://arxiv.org/pdf/2401.15330.pdf)|AIStats|2024.01|||
 ***
 ## Objective Functions
@@ -117,8 +117,10 @@ Last Update Time: 2024.02.15
 
 |Keyword|Title|Publisher|Date|Code|Notes|
 |---|----|--|--|---|---|
-|FISA|[Fair and Interpretable Models for Survival Analysis](https://dl.acm.org/doi/10.1145/3534678.3539259)|KDD|2022.08|||
 |FSRF|[Longitudinal Fairness with Censorship](https://arxiv.org/abs/2203.16024)|AAAI|2022.03|||
+|FISA|[Fair and Interpretable Models for Survival Analysis](https://dl.acm.org/doi/10.1145/3534678.3539259)|KDD|2022.08||[Video](https://dl.acm.org/doi/10.1145/3534678.3539259)|
+|IFS|[Censored Fairness through Awareness](https://ojs.aaai.org/index.php/AAAI/article/view/26708)|AAAI|2023.03|||
+||[Fairness-Aware Processing Techniques in Survival Analysis: Promoting Equitable Predictions](https://link.springer.com/chapter/10.1007/978-3-031-43427-3_28)|ECML-PKDD|2023.09|||
 ***
 
 ## Competing Risks Models
@@ -167,8 +169,11 @@ Last Update Time: 2024.02.15
 |CMHE|[Counterfactual Phenotyping with Censored Time-to-Events](https://arxiv.org/abs/2202.11089)|KDD|2022.02|[PyTorch](https://autonlab.github.io/auton-survival/cmhe/)||
 |DNMC|[Disentangling Whether from When in a Neural Mixture Cure Model for Failure Time Data](https://proceedings.mlr.press/v151/engelhard22a/engelhard22a.pdf)|AISTATS|2022.03|[TensorFlow](https://github.com/mengelhard/dnmc/)||
 |compCATE|[Understanding the Impact of Competing Events on Heterogeneous Treatment Effect Estimation from Time-to-Event Data](https://arxiv.org/pdf/2302.12718v1.pdf)|AISTATS|2023.02|[Python](https://github.com/AliciaCurth/CompCATE)||
-
 ***
+
+## Dependent Censoring
+|CopulaDeepSurvival|[Copula-Based Deep Survival Models for Dependent Censoring](https://proceedings.mlr.press/v216/gharari23a/gharari23a.pdf)|UAI|2023.06|[PyTorch](https://github.com/rgklab/copula_based_deep_survival)||
+|DCSurvival|[Deep Copula-Based Survival Analysis for Dependent Censoring with Identifiability Guarantees](https://arxiv.org/pdf/2312.15566.pdf)|AAAI|2023.12|[PyTorch](https://github.com/WeijiaZhang24/DCSurvival)||
 
 ## Temporal Time Process
 
