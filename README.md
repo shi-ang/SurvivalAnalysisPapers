@@ -2,7 +2,7 @@
 
 A list of papers/resources in Survival Analysis that I have read or would like to read. Should you wish to suggest an addition to this list, please feel free to open an issue.
 
-Last Update Time: 2024.02.28
+Last Update Time: 2024.04.06
 
 - Categories
     - [Tutorials/Surveys](#tutorials-and-surveys)
@@ -41,9 +41,7 @@ Last Update Time: 2024.02.28
 |---|----|--|--|---|---|
 |GBMCOX|[The State of Boosting](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.22.276&rep=rep1&type=pdf)|Computing Science and Statistics|2008|[R](https://github.com/gbm-developers/gbm)||
 |RSF|[Random Survival Forest](https://arxiv.org/pdf/0811.1645.pdf)|The Annals of Applied Statistics|2008|[R](https://kogalur.github.io/randomForestSRC/)||
-|Pseudo-observations|[Pseudo-observations in survival analysis](https://pubmed.ncbi.nlm.nih.gov/19654170/)|Statistical Methods in Medical Research|2010|||
 |MTLR|[Learning Patient-Specific Cancer Survival Distributions as a Sequence of Dependent Regressors](http://www.cs.cornell.edu/~cnyu/papers/nips11_survival.pdf)|NeurIPS|2011|[R](https://cran.r-project.org/web/packages/MTLR/index.html)|[Poster](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.482.8967&rep=rep1&type=pdf)|
-|GBMCI|[A Gradient Boosting Algorithm for Survival Analysis via Direct Optimazation of Concordance Index](https://www.hindawi.com/journals/cmmm/2013/873595/)|Computational and Mathematical Methods in Medicine|2013.09|[R](https://github.com/uci-cbcl/GBMCI)||
 |N-MTLR|[Deep Neural Networks for Survival Analysis Based on a Multi-Task Framework](https://arxiv.org/abs/1801.05512)|Arxiv|2018.01|[Python](https://square.github.io/pysurvival/)||
 |DeepSurv|[DeepSurv: personalized treatment recommender system using a Cox proportional hazards deep neural network](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-018-0482-1)|BMC Medical Research Methodology|2018.02|[Python](https://github.com/jaredleekatzman/DeepSurv)||
 |DATE & DRAFT|[Adversarial Time-to-Event Modeling](https://arxiv.org/abs/1804.03184)|ICML|2018.07|[TensorFlow](https://github.com/paidamoyo/adversarial_time_to_event)||
@@ -52,7 +50,6 @@ Last Update Time: 2024.02.28
 |SurvivalQuilts|[Temporal Quilting for Survival Analysis](http://proceedings.mlr.press/v89/lee19a/lee19a.pdf)|AISTATS|2020.04|[Python](https://github.com/chl8856/SurvivalQuilts)||
 |SCA|[Survival Cluster Analysis](https://dl.acm.org/doi/pdf/10.1145/3368555.3384465)|ACM CHIL|2020.04|[TensorFlow](https://github.com/paidamoyo/survival_cluster_analysis)||
 |VAECox|[Improved survival analysis by learning shared genomic information from pan-cancer data](https://academic.oup.com/bioinformatics/article/36/Supplement_1/i389/5870509)|Bioinformatics|2020.07|[Pytorch](https://github.com/dmis-lab/VAECox)||
-|SFM|[Calibration and Uncertainty in Neural Time-to-Event Modeling](https://ieeexplore.ieee.org/document/9244076)|TNNLS|2020.09|[TensorFlow](https://github.com/paidamoyo/calibration_uncertainty_t2e)||
 |DCM|[Deep Cox Mixtures for Survival Regression](https://arxiv.org/pdf/2101.06536.pdf)|NeurIPS Machine Learning for Health Workshop|2021.01|[TensorFlow](https://github.com/chiragnagpal/deep_cox_mixtures)||
 |DHBN|[Using Discrete Hazard Bayesian Networks to Identify which Features are Relevant at each Time in a Survival Prediction Model](http://proceedings.mlr.press/v146/kuan21a/kuan21a.pdf)|AAAI Spring Symposium (SP-ACA)|2021.03|[R](https://github.com/kuan0911/ISDEvaluation)||
 |TDSA|[Transformer-Based Deep Survival Analysis](http://proceedings.mlr.press/v146/hu21a/hu21a.pdf)|AAAI Spring Symposium (SP-ACA)|2021.03|||
@@ -66,8 +63,8 @@ Last Update Time: 2024.02.28
 |DCS|[Deep Learning-Based Discrete Calibrated Survival Prediction](https://arxiv.org/pdf/2208.08182.pdf)|ICDH|2022.08|[PyTorch](https://github.com/imsb-uke/dcsurv)||
 |CQRNN|[Censored Quantile Regression Neural Networks for Distribution-Free Survival Analysis](https://arxiv.org/abs/2205.13496)|NeurIPS|2022.11|[PyTorth](https://github.com/TeaPearce/Censored_Quantile_Regression_NN)|[Poster](https://neurips.cc/media/PosterPDFs/NeurIPS%202022/55198.png?t=1669392940.4432118)|
 |MSSDA|[Multi-Source Survival Domain Adaptation](https://arxiv.org/pdf/2212.00424.pdf)|AAAI|2023|||
-|CSA|[Conformalized survival analysis](https://academic.oup.com/jrsssb/article/85/1/24/7008653)|JRSS: Series B|2023.01|[R](https://github.com/zhimeir/cfsurvival)||
 |SurvivalGAN|[SurvivalGAN: Generating Time-to-Event Data for Survival Analysis](https://proceedings.mlr.press/v206/norcliffe23a/norcliffe23a.pdf)|AIStats|2023.02|[PyTorch](https://github.com/vanderschaarlab/survivalgan)||
+|DH-MNN|[Metaparametric Neural Networks for Survival Analysis](https://ieeexplore.ieee.org/document/9585306)|TNNLS|2023.08|||
 |NSOTree|[Neural Survival Oblique Tree](https://arxiv.org/pdf/2309.13825.pdf)|Arxiv|2023.09|[Code](https://github.com/xs018/NSOTree)||
 |NNCDE|[Conditional Distribution Function Estimation Using Neural Networks for Censored and Uncensored Data](https://www.jmlr.org/papers/volume24/22-0657/22-0657.pdf)|JMLR|2023.12|[PyTorch](https://github.com/bingqing0729/NNCDE)||
 |NFM|[Neural Frailty Machine: Beyond proportional hazard assumption in neural survival regressions](https://openreview.net/forum?id=3Fc9gnR0fa)|NeurIPS|2023.12|[PyTorch](https://github.com/Rorschach1989/nfm)||
@@ -77,8 +74,10 @@ Last Update Time: 2024.02.28
 ## Objective Functions
 |Keyword|Title|Publisher|Date|Code|Notes|
 |---|----|--|--|---|---|
+|GBMCI|[A Gradient Boosting Algorithm for Survival Analysis via Direct Optimazation of Concordance Index](https://www.hindawi.com/journals/cmmm/2013/873595/)|Computational and Mathematical Methods in Medicine|2013.09|[R](https://github.com/uci-cbcl/GBMCI)||
 |Survival-CRPS|[Countdown Regression: Sharp and Calibrated Survival Predictions](https://arxiv.org/abs/1806.08324)|UAI|2019|[PyTorch](https://github.com/stanfordmlgroup/cdr-mimic)||
 ||[Bias in Cross-Entropy-Based Training of Deep Survival Networks](https://ieeexplore.ieee.org/document/9028113)|TPAMI|2020.03|||
+|SFM|[Calibration and Uncertainty in Neural Time-to-Event Modeling](https://ieeexplore.ieee.org/document/9244076)|TNNLS|2020.09|[TensorFlow](https://github.com/paidamoyo/calibration_uncertainty_t2e)||
 |X-CAL|[X-CAL: Explicit Calibration for Survival Analysis](https://arxiv.org/abs/2101.05346)|NeurIPS|2020|[PyTorch](https://github.com/rajesh-lab/X-CAL)|[Poster](https://nips.cc/virtual/2020/public/poster_d4a93297083a23cc099f7bd6a8621131.html)|
 |Discrete-RPS|[Estimating Calibrated Individualized Survival Curves with Deep Learning](https://ojs.aaai.org/index.php/AAAI/article/view/16098)|AAAI|2021.02|[PyTorch](https://github.com/MLD3/Calibrated-Survival-Analysis)||
 |KL-Calibration|[Simpler Calibration for Survival Analysis](https://openreview.net/forum?id=bB6YLDJewoK)|ICLR OpenReview|2021.10|||
@@ -125,11 +124,13 @@ Last Update Time: 2024.02.28
 
 ## Generalized Survival Analysis Methods
 
-|Title|Publisher|Date|Code|Notes|
-|----|---|--|---|---|
-|[A doubly robust censoring unbiased transformation](https://pubmed.ncbi.nlm.nih.gov/22550646/)|The International Journal of Biostatistics|2007.03|||
-|[Adapting machine learning techniques to censored time-to-event health record data: A general-purpose approach using inverse probability of censoring weighting](https://www.sciencedirect.com/science/article/pii/S1532046416000496)|Journal of Biomedical Informatics|2016.03|[R](https://github.com/docvock/JBI_IPCW_for_ML)||
-|[A General Machine Learning Framework for Survival Analysis](https://arxiv.org/abs/2006.15442)|ECML|2020.06|[R](https://github.com/adibender/machine-learning-for-survival-ecml2020)||
+||Title|Publisher|Date|Code|Notes|
+|--|----|---|--|---|---|
+|Pseudo-observations|[Pseudo-observations in survival analysis](https://pubmed.ncbi.nlm.nih.gov/19654170/)|Statistical Methods in Medical Research|2010|||
+||[A doubly robust censoring unbiased transformation](https://pubmed.ncbi.nlm.nih.gov/22550646/)|The International Journal of Biostatistics|2007.03|||
+||[Adapting machine learning techniques to censored time-to-event health record data: A general-purpose approach using inverse probability of censoring weighting](https://www.sciencedirect.com/science/article/pii/S1532046416000496)|Journal of Biomedical Informatics|2016.03|[R](https://github.com/docvock/JBI_IPCW_for_ML)||
+||[A General Machine Learning Framework for Survival Analysis](https://arxiv.org/abs/2006.15442)|ECML|2020.06|[R](https://github.com/adibender/machine-learning-for-survival-ecml2020)||
+|CSA|[Conformalized survival analysis](https://academic.oup.com/jrsssb/article/85/1/24/7008653)|JRSS: Series B|2023.01|[R](https://github.com/zhimeir/cfsurvival)||
 ***
 
 ## Evaluation Metrics
