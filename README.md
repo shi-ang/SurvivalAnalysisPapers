@@ -4,25 +4,25 @@ A list of papers/resources in Survival Analysis that I have read or would like t
 
 Last Update Time: 2024.02.28
 
-- [Categories](#Survival-Analysis-Paper-List)
-    - [Literature Survey](#Literature-Survey)
-	- [ML and DL for Survival Analysis](#ML-and-DL-for-Survival-Analysis)
+- Categories
+    - [Tutorials/Surveys](#tutorials-and-surveys)
+	- [ML/DL Survival Models](#ml-and-dl-for-survival-analysis)
     - [Objective Functions](#objective-functions)
-    - [Time-varying Covariates Models](#Time-varying-Covariates-Models)
-    - [Explainable Survival Modles](#explainable-survival-models)
+    - [Time-varying Covariates Models](#time-varying-covariates-models)
+    - [Explainable Survival Models](#explainable-survival-models)
+    - [Competing Risks Models](#competing-risks-models)
+    - [Generalized Survival Analysis Methods](#generalized-survival-analysis-methods)
+    - [Evaluation Metrics](#evaluation-metrics)
+    - [Causal Inference](#causal-inference)
     - [Fairness](#fairness)
-    - [Competing Risks Models](#Competing-Risks-Models)
-    - [Generalized Survival Analysis Methods](#Generalized-Survival-Analysis-Methods)
-    - [Evaluation Metrics](#Evaluation-Metrics)
-    - [Causal Inference](#Causal-Inference)
-    - [Dependent Censoring](#Dependent-Censoring)
-    - [Temporal Time Process](#Temporal-Time-Process)
-    - [Applied Survival Analysis](#Applied-Survival-Analysis)
+    - [Dependent Censoring](#dependent-censoring)
+    - [Temporal Time Process](#temporal-time-process)
+    - [Applications](#applied-survival-analysis)
 
 *Please note that some papers may belong to multiple categories. However, I've organized them according to their most significant contribution (purely subjective).
 ***
 
-## Literature Survey
+## Tutorials and Surveys
 
 |Title|Publisher|Date|Code|Notes|
 |----|---|--|---|---|
@@ -72,7 +72,7 @@ Last Update Time: 2024.02.28
 |NNCDE|[Conditional Distribution Function Estimation Using Neural Networks for Censored and Uncensored Data](https://www.jmlr.org/papers/volume24/22-0657/22-0657.pdf)|JMLR|2023.12|[PyTorch](https://github.com/bingqing0729/NNCDE)||
 |NFM|[Neural Frailty Machine: Beyond proportional hazard assumption in neural survival regressions](https://openreview.net/forum?id=3Fc9gnR0fa)|NeurIPS|2023.12|[PyTorch](https://github.com/Rorschach1989/nfm)||
 |Diffsurv|[Differentiable sorting for censored time-to-event data](https://openreview.net/forum?id=gYWjI7wLhc)|NeurIPS|2023.12|[PyTorch](https://github.com/andre-vauvelle/diffsurv)||
-|OSST|[Optimal Sparse Survival Trees](https://arxiv.org/pdf/2401.15330.pdf)|AIStats|2024.01|||
+|OSST|[Optimal Sparse Survival Trees](https://arxiv.org/pdf/2401.15330.pdf)|AIStats|2024.01|[Python](https://github.com/ruizhang1996/optimal-sparse-survival-trees-public/)||
 ***
 ## Objective Functions
 |Keyword|Title|Publisher|Date|Code|Notes|
@@ -110,16 +110,6 @@ Last Update Time: 2024.02.28
 |AutoScore-Survival|[AutoScore-Survival: Developing interpretable machine learning-based time-to-event scores with right-censored survival data](https://linkinghub.elsevier.com/retrieve/pii/S1532-0464(21)00288-4)|Journal of Biomedical Informatics|2022.01|[R](https://github.com/nliulab/AutoScore-Survival)||
 |EXCEL|[Explainable Censored Learning: Finding Critical Features with Long Term Prognostic Values for Survival Prediction](https://arxiv.org/abs/2209.15450)|Arxiv|2022.09|||
 |BNN-ISD|[Using Bayesian Neural Networks to Select Features and Compute Credible Intervals for Personalized Survival Prediction](https://ieeexplore.ieee.org/document/10158019)|TBME|2023.07|[PyTorch](https://github.com/shi-ang/BNN-ISD)||
-***
-
-## Fairness
-
-|Keyword|Title|Publisher|Date|Code|Notes|
-|---|----|--|--|---|---|
-|FSRF|[Longitudinal Fairness with Censorship](https://arxiv.org/abs/2203.16024)|AAAI|2022.03|||
-|FISA|[Fair and Interpretable Models for Survival Analysis](https://dl.acm.org/doi/10.1145/3534678.3539259)|KDD|2022.08||[Video](https://dl.acm.org/doi/10.1145/3534678.3539259)|
-|IFS|[Censored Fairness through Awareness](https://ojs.aaai.org/index.php/AAAI/article/view/26708)|AAAI|2023.03|||
-||[Fairness-Aware Processing Techniques in Survival Analysis: Promoting Equitable Predictions](https://link.springer.com/chapter/10.1007/978-3-031-43427-3_28)|ECML-PKDD|2023.09|||
 ***
 
 ## Competing Risks Models
@@ -170,7 +160,18 @@ Last Update Time: 2024.02.28
 |compCATE|[Understanding the Impact of Competing Events on Heterogeneous Treatment Effect Estimation from Time-to-Event Data](https://arxiv.org/pdf/2302.12718v1.pdf)|AISTATS|2023.02|[Python](https://github.com/AliciaCurth/CompCATE)||
 ***
 
+## Fairness
+
+|Keyword|Title|Publisher|Date|Code|Notes|
+|---|----|--|--|---|---|
+|FSRF|[Longitudinal Fairness with Censorship](https://arxiv.org/abs/2203.16024)|AAAI|2022.03|||
+|FISA|[Fair and Interpretable Models for Survival Analysis](https://dl.acm.org/doi/10.1145/3534678.3539259)|KDD|2022.08||[Video](https://dl.acm.org/doi/10.1145/3534678.3539259)|
+|IFS|[Censored Fairness through Awareness](https://ojs.aaai.org/index.php/AAAI/article/view/26708)|AAAI|2023.03|||
+||[Fairness-Aware Processing Techniques in Survival Analysis: Promoting Equitable Predictions](https://link.springer.com/chapter/10.1007/978-3-031-43427-3_28)|ECML-PKDD|2023.09|||
+***
+
 ## Dependent Censoring
+
 |Keyword|Title|Publisher|Date|Code|Notes|
 |---|----|--|--|---|---|
 |CopulaDeepSurvival|[Copula-Based Deep Survival Models for Dependent Censoring](https://proceedings.mlr.press/v216/gharari23a/gharari23a.pdf)|UAI|2023.06|[PyTorch](https://github.com/rgklab/copula_based_deep_survival)||
