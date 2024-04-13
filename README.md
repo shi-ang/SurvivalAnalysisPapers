@@ -2,7 +2,7 @@
 
 A list of papers/resources in Survival Analysis that I have read or would like to read. Should you wish to suggest an addition to this list, please feel free to open an issue.
 
-Last Update Time: 2024.04.06
+Last Update Time: 2024.04.13
 
 - Categories
     - [Tutorials/Surveys](#tutorials-and-surveys)
@@ -53,6 +53,7 @@ Last Update Time: 2024.04.06
 |DCM|[Deep Cox Mixtures for Survival Regression](https://arxiv.org/pdf/2101.06536.pdf)|NeurIPS Machine Learning for Health Workshop|2021.01|[TensorFlow](https://github.com/chiragnagpal/deep_cox_mixtures)||
 |DHBN|[Using Discrete Hazard Bayesian Networks to Identify which Features are Relevant at each Time in a Survival Prediction Model](http://proceedings.mlr.press/v146/kuan21a/kuan21a.pdf)|AAAI Spring Symposium (SP-ACA)|2021.03|[R](https://github.com/kuan0911/ISDEvaluation)||
 |TDSA|[Transformer-Based Deep Survival Analysis](http://proceedings.mlr.press/v146/hu21a/hu21a.pdf)|AAAI Spring Symposium (SP-ACA)|2021.03|||
+|HSA|[A Hierarchical Approach to Multi-Event Survival Analysis](https://ojs.aaai.org/index.php/AAAI/article/view/16138)|AAAI|2021.05|[PyTorch](https://github.com/MLD3/Hierarchical_Survival_Analysis)||
 |DeepQuantreg|[Deep learning for quantile regression under right censoring: DeepQuantreg](https://www.sciencedirect.com/science/article/abs/pii/S0167947321001572)|Computational Statistics and Data Analysis|2021.07|[TensorFlow](https://github.com/yicjia/DeepQuantreg)||
 |IWSG|[Inverse-Weighted Survival Games](https://openreview.net/forum?id=j4oYd8SGop)|NeurIPS|2021.12|[PyTorch](https://github.com/rajesh-lab/Inverse-Weighted-Survival-Games)||
 |DeepEH|[Deep Extended Hazard Models for Survival Analysis](https://openreview.net/forum?id=GUD7rNkaWKr)|NeurIPS|2021.12|||
@@ -71,7 +72,9 @@ Last Update Time: 2024.04.06
 |Diffsurv|[Differentiable sorting for censored time-to-event data](https://openreview.net/forum?id=gYWjI7wLhc)|NeurIPS|2023.12|[PyTorch](https://github.com/andre-vauvelle/diffsurv)||
 |OSST|[Optimal Sparse Survival Trees](https://arxiv.org/pdf/2401.15330.pdf)|AIStats|2024.01|[Python](https://github.com/ruizhang1996/optimal-sparse-survival-trees-public/)||
 ***
+
 ## Objective Functions
+
 |Keyword|Title|Publisher|Date|Code|Notes|
 |---|----|--|--|---|---|
 |GBMCI|[A Gradient Boosting Algorithm for Survival Analysis via Direct Optimazation of Concordance Index](https://www.hindawi.com/journals/cmmm/2013/873595/)|Computational and Mathematical Methods in Medicine|2013.09|[R](https://github.com/uci-cbcl/GBMCI)||
@@ -93,7 +96,7 @@ Last Update Time: 2024.04.06
 |Time-varying Cox|[Time-varying covariates and coefficients in Cox regression models](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6015946/)|Annals of Translational Medicine|2018.01|||
 |DRSA|[Deep Recurrent Survival Analysis](https://ojs.aaai.org/index.php/AAAI/article/view/4407)|AAAI|2019.02|[TensorFlow](https://github.com/rk2900/DRSA)||
 |TSNN|[Time-Dependent Survival Neural Network for Remaining Useful Life Prediction](https://link.springer.com/chapter/10.1007/978-3-030-16148-4_34)|PAKDD|2019.03|||
-|Dynamic-DeepHit|[Dynamic-DeepHit: A Deep Learning Approach for Dynamic Survival Analysis With Competing Risks Based on Longitudinal Data](https://ieeexplore.ieee.org/document/8681104)|TBME|2019.04|[PyTorch](https://github.com/chl8856/Dynamic-DeepHit)||
+|Dynamic-DeepHit|[Dynamic-DeepHit: A Deep Learning Approach for Dynamic Survival Analysis With Competing Risks Based on Longitudinal Data](https://ieeexplore.ieee.org/document/8681104)|TBME|2019.04|[TensorFlow](https://github.com/chl8856/Dynamic-DeepHit)||
 |TSNN & RSNN|[Survival neural networks for time-to-event prediction in longitudinal study](https://link.springer.com/article/10.1007%2Fs10115-020-01472-1)|Knowledge and Information System|2020.05||Extend Paper|
 |DRSM|[Deep Parametric Time-to-Event Regression with Time-Varying Covariates](http://proceedings.mlr.press/v146/nagpal21a.html)|AAAI Spring Symposium (SP-ACA)|2021.03|[PyTorch](https://autonlab.github.io/DeepSurvivalMachines/#deep-recurrent-survival-machines)||
 |TCSA|[Temporally-Consistent Survival Analysis](https://proceedings.neurips.cc/paper_files/paper/2022/hash/455e1e30edf721bd7fa334fffabdcad8-Abstract-Conference.html)|NeurIPS|2022.11|[Python](https://github.com/spotify-research/tdsurv)|[Poster](https://neurips.cc/media/PosterPDFs/NeurIPS%202022/118bd558033a1016fcc82560c65cca5f.png?t=1667814990.0636194)|
@@ -116,7 +119,8 @@ Last Update Time: 2024.04.06
 |Keyword|Title|Publisher|Date|Code|Notes|
 |---|----|--|--|---|---|
 ||[On pseudo-values for regression analysis in competing risks models](https://pubmed.ncbi.nlm.nih.gov/19051013/)|Lifetime Data Analysis|2009.06|||
-|DeepHit|[DeepHit: A Deep Learning Approach to Survival Analysis with Competing Risks](http://medianetlab.ee.ucla.edu/papers/AAAI_2018_DeepHit.pdf)|AAAI|2018.02|||
+|DMGP|[Deep Multi-task Gaussian Processes for Survival Analysis with Competing Risks](https://papers.nips.cc/paper_files/paper/2017/hash/861dc9bd7f4e7dd3cccd534d0ae2a2e9-Abstract.html)|NeurIPS|2017.12|||
+|DeepHit|[DeepHit: A Deep Learning Approach to Survival Analysis with Competing Risks](http://medianetlab.ee.ucla.edu/papers/AAAI_2018_DeepHit.pdf)|AAAI|2018.02|[TensorFlow](https://github.com/chl8856/DeepHit)||
 |SurvTRACE|[SurvTRACE: Transformers for Survival Analysis with Competing Events](https://arxiv.org/abs/2110.00855)|Arxiv|2021.10|[Pytorch](https://github.com/RyanWangZf/SurvTRACE)||
 |Deep-CSA|[Deep-CSA: Deep Contrastive Learning for Dynamic Survival Analysis with Competing Risks](https://ieeexplore.ieee.org/abstract/document/9756287)|IEEE Journal of Biomedical and Health Informatics|2022.04|||
 |DeepPseudo|[DeepPseudo: Pseudo Value Based Deep Learning Models for Competing Risk Analysis](https://arxiv.org/pdf/2207.05247.pdf)|KDD DSHealth Workshop|2022.08|||
@@ -205,4 +209,5 @@ Last Update Time: 2024.04.06
 |[SurProGenes: Survival Risk-Ordered Representation of Cancer Patients and Genes for the Identification of Prognostic Genes](https://openreview.net/forum?id=t4COq27gBs)|ICML|2023.06|[TensorFLow](https://github.com/JunetaeKim/SurProGenes)|[Poster](https://icml.cc/media/PosterPDFs/ICML%202023/25067.png?t=1686635672.8107529)|
 |[Semi-Parametric Contextual Pricing Algorithm using Cox Proportional Hazards Model](https://openreview.net/forum?id=wkr4r2Cw3i)|ICML|2023.06|[Code](https://github.com/younggeunchoi/CoxContextualPricing)|[Poster](https://icml.cc/media/PosterPDFs/ICML%202023/24954.png?t=1688273092.4951394)|
 |[Contrastive Learning of Temporal Distinctiveness for Survival Analysis in Electronic Health Records](https://dl.acm.org/doi/10.1145/3583780.3614824)|CIKM|2023.10|[Python](https://github.com/mohsen-nyb/OTCSurv)||
-|[Prototypical Information Bottlenecking and Disentangling for Multimodal Cancer Survival Prediction](https://arxiv.org/pdf/2401.01646.pdf)|ICLR|2024.01|[Python](https://github.com/zylbuaa/PIBD)||
+|[Prototypical Information Bottlenecking and Disentangling for Multimodal Cancer Survival Prediction](https://arxiv.org/pdf/2401.01646.pdf)|ICLR|2024.01|[Code?](https://github.com/zylbuaa/PIBD)||
+|[MOTOR: A Time-to-Event Foundation Model For Structured Medical Records](https://openreview.net/forum?id=NialiwI2V6)|ICLR|2024.01|[PyTorch](https://github.com/som-shahlab/motor_code_release)||
