@@ -2,7 +2,7 @@
 
 A list of papers/resources in Survival Analysis that I have read or would like to read. Should you wish to suggest an addition to this list, please feel free to open an issue.
 
-Last Update Time: 2024.04.13
+Last Update Time: 2024.05.19
 
 - Categories
     - [Tutorials/Surveys](#tutorials-and-surveys)
@@ -32,6 +32,7 @@ Last Update Time: 2024.04.13
 |[Survival analysis—time-to-event data and censoring](https://www.nature.com/articles/s41592-022-01563-7)|Nature Methods|2022.04|||
 |[Survey: Strategies for Loss-Based Discrete-Time Hazard and Survival Function Estimation](https://ieeexplore.ieee.org/document/9952504)|ICTC|2022.10|||
 |[Regression modeling of time-to-event data with censoring](https://www.nature.com/articles/s41592-022-01689-8)|Nature Methods|2022.11|||
+|[Avoiding C-hacking when evaluating survival distribution predictions with discrimination measures ](https://academic.oup.com/bioinformatics/article/38/17/4178/6640155)|Bioinformatics|2022.09|||
 |[Factors influencing clinician and patient interaction with machine learning-based risk prediction models: a systematic review](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(23)00241-8/fulltext)|Lancet Digital Health|2024.02|||
 ***
 
@@ -101,6 +102,7 @@ Last Update Time: 2024.04.13
 |DRSM|[Deep Parametric Time-to-Event Regression with Time-Varying Covariates](http://proceedings.mlr.press/v146/nagpal21a.html)|AAAI Spring Symposium (SP-ACA)|2021.03|[PyTorch](https://autonlab.github.io/DeepSurvivalMachines/#deep-recurrent-survival-machines)||
 |TCSA|[Temporally-Consistent Survival Analysis](https://proceedings.neurips.cc/paper_files/paper/2022/hash/455e1e30edf721bd7fa334fffabdcad8-Abstract-Conference.html)|NeurIPS|2022.11|[Python](https://github.com/spotify-research/tdsurv)|[Poster](https://neurips.cc/media/PosterPDFs/NeurIPS%202022/118bd558033a1016fcc82560c65cca5f.png?t=1667814990.0636194)|
 |SurvPP|[Survival Permanental Processes for Survival Analysis with Time-Varying Covariates](https://openreview.net/forum?id=CYCzfXn6cZ)|NeurIPS|2023.12|[Python](https://github.com/HidKim/SurvPP)||
+|CoxSig|[Dynamic Survival Analysis with Controlled Latent States](https://arxiv.org/abs/2401.17077)|ICML|2024.01|||
 ***
 
 ## Explainable Survival Models
@@ -135,6 +137,7 @@ Last Update Time: 2024.04.13
 ||[Adapting machine learning techniques to censored time-to-event health record data: A general-purpose approach using inverse probability of censoring weighting](https://www.sciencedirect.com/science/article/pii/S1532046416000496)|Journal of Biomedical Informatics|2016.03|[R](https://github.com/docvock/JBI_IPCW_for_ML)||
 ||[A General Machine Learning Framework for Survival Analysis](https://arxiv.org/abs/2006.15442)|ECML|2020.06|[R](https://github.com/adibender/machine-learning-for-survival-ecml2020)||
 |CSA|[Conformalized survival analysis](https://academic.oup.com/jrsssb/article/85/1/24/7008653)|JRSS: Series B|2023.01|[R](https://github.com/zhimeir/cfsurvival)||
+|CSD|[Conformalized Survival Distributions: A Generic Post-Process to Increase Calibration](https://arxiv.org/abs/2405.07374)|ICML|2024.05|[Python](https://github.com/shi-ang/CSD)||
 ***
 
 ## Evaluation Metrics
@@ -209,5 +212,6 @@ Last Update Time: 2024.04.13
 |[SurProGenes: Survival Risk-Ordered Representation of Cancer Patients and Genes for the Identification of Prognostic Genes](https://openreview.net/forum?id=t4COq27gBs)|ICML|2023.06|[TensorFLow](https://github.com/JunetaeKim/SurProGenes)|[Poster](https://icml.cc/media/PosterPDFs/ICML%202023/25067.png?t=1686635672.8107529)|
 |[Semi-Parametric Contextual Pricing Algorithm using Cox Proportional Hazards Model](https://openreview.net/forum?id=wkr4r2Cw3i)|ICML|2023.06|[Code](https://github.com/younggeunchoi/CoxContextualPricing)|[Poster](https://icml.cc/media/PosterPDFs/ICML%202023/24954.png?t=1688273092.4951394)|
 |[Contrastive Learning of Temporal Distinctiveness for Survival Analysis in Electronic Health Records](https://dl.acm.org/doi/10.1145/3583780.3614824)|CIKM|2023.10|[Python](https://github.com/mohsen-nyb/OTCSurv)||
-|[Prototypical Information Bottlenecking and Disentangling for Multimodal Cancer Survival Prediction](https://arxiv.org/pdf/2401.01646.pdf)|ICLR|2024.01|[Code?](https://github.com/zylbuaa/PIBD)||
+|[Prototypical Information Bottlenecking and Disentangling for Multimodal Cancer Survival Prediction](https://arxiv.org/pdf/2401.01646.pdf)|ICLR|2024.01|[PyTorch](https://github.com/zylbuaa/PIBD)||
 |[MOTOR: A Time-to-Event Foundation Model For Structured Medical Records](https://openreview.net/forum?id=NialiwI2V6)|ICLR|2024.01|[PyTorch](https://github.com/som-shahlab/motor_code_release)||
+|[Multimodal Prototyping for cancer survival prediction](https://icml.cc/virtual/2024/poster/35066)|ICML|2024.05|||
