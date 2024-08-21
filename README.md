@@ -2,7 +2,7 @@
 
 A list of papers/resources in Survival Analysis that I have read or would like to read. Should you wish to suggest an addition to this list, please feel free to open an issue.
 
-Last Update Time: 2024.06.16
+Last Update Time: 2024.08.21
 
 - Categories
     - [Tutorials/Surveys](#tutorials-and-surveys)
@@ -67,11 +67,13 @@ Last Update Time: 2024.06.16
 |MSSDA|[Multi-Source Survival Domain Adaptation](https://arxiv.org/pdf/2212.00424.pdf)|AAAI|2023|||
 |SurvivalGAN|[SurvivalGAN: Generating Time-to-Event Data for Survival Analysis](https://proceedings.mlr.press/v206/norcliffe23a/norcliffe23a.pdf)|AIStats|2023.02|[PyTorch](https://github.com/vanderschaarlab/survivalgan)||
 |DH-MNN|[Metaparametric Neural Networks for Survival Analysis](https://ieeexplore.ieee.org/document/9585306)|TNNLS|2023.08|||
-|NSOTree|[Neural Survival Oblique Tree](https://arxiv.org/pdf/2309.13825.pdf)|Arxiv|2023.09|[Code](https://github.com/xs018/NSOTree)||
+|NSOTree|[Neural Survival Oblique Tree](https://arxiv.org/pdf/2309.13825.pdf)|Arxiv|2023.09|[Python](https://github.com/xs018/NSOTree)||
 |NNCDE|[Conditional Distribution Function Estimation Using Neural Networks for Censored and Uncensored Data](https://www.jmlr.org/papers/volume24/22-0657/22-0657.pdf)|JMLR|2023.12|[PyTorch](https://github.com/bingqing0729/NNCDE)||
 |NFM|[Neural Frailty Machine: Beyond proportional hazard assumption in neural survival regressions](https://openreview.net/forum?id=3Fc9gnR0fa)|NeurIPS|2023.12|[PyTorch](https://github.com/Rorschach1989/nfm)||
 |Diffsurv|[Differentiable sorting for censored time-to-event data](https://openreview.net/forum?id=gYWjI7wLhc)|NeurIPS|2023.12|[PyTorch](https://github.com/andre-vauvelle/diffsurv)||
 |OSST|[Optimal Sparse Survival Trees](https://arxiv.org/pdf/2401.15330.pdf)|AIStats|2024.01|[Python](https://github.com/ruizhang1996/optimal-sparse-survival-trees-public/)||
+|Survival Kernets|[Survival Kernets: Scalable and Interpretable Deep Kernel Survival Analysis with an Accuracy Guarantee](https://jmlr.org/papers/v25/22-0667.html)|JMLR|2024.02|[Pytorch](https://github.com/georgehc/survival-kernets)||
+|SurvReLU|[Inherently Interpretable Survival Analysis via Deep ReLU Networks](https://arxiv.org/pdf/2407.14463)|CIKM|2024.10|[Code](https://github.com/xs018/SurvReLU)||
 ***
 
 ## Objective Functions
@@ -103,6 +105,7 @@ Last Update Time: 2024.06.16
 |TCSA|[Temporally-Consistent Survival Analysis](https://proceedings.neurips.cc/paper_files/paper/2022/hash/455e1e30edf721bd7fa334fffabdcad8-Abstract-Conference.html)|NeurIPS|2022.11|[Python](https://github.com/spotify-research/tdsurv)|[Poster](https://neurips.cc/media/PosterPDFs/NeurIPS%202022/118bd558033a1016fcc82560c65cca5f.png?t=1667814990.0636194)|
 |SurvPP|[Survival Permanental Processes for Survival Analysis with Time-Varying Covariates](https://openreview.net/forum?id=CYCzfXn6cZ)|NeurIPS|2023.12|[Python](https://github.com/HidKim/SurvPP)||
 |CoxSig|[Dynamic Survival Analysis with Controlled Latent States](https://arxiv.org/abs/2401.17077)|ICML|2024.01|[PyTorch](https://github.com/LinusBleistein/signature_survival)||
+|DSPS|[Support vector machine for dynamic survival prediction with time-dependent covariates](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-18/issue-3/Support-vector-machine-for-dynamic-survival-prediction-with-time-dependent/10.1214/24-AOAS1875.full)|Ann. Appl. Stat.|2024.09|[R](https://github.com/Wenyi-Xie/DSPS)||
 ***
 
 ## Explainable Survival Models
@@ -139,7 +142,8 @@ Last Update Time: 2024.06.16
 ||[Adapting machine learning techniques to censored time-to-event health record data: A general-purpose approach using inverse probability of censoring weighting](https://www.sciencedirect.com/science/article/pii/S1532046416000496)|Journal of Biomedical Informatics|2016.03|[R](https://github.com/docvock/JBI_IPCW_for_ML)||
 ||[A General Machine Learning Framework for Survival Analysis](https://arxiv.org/abs/2006.15442)|ECML|2020.06|[R](https://github.com/adibender/machine-learning-for-survival-ecml2020)||
 |CSA|[Conformalized survival analysis](https://academic.oup.com/jrsssb/article/85/1/24/7008653)|JRSS: Series B|2023.01|[R](https://github.com/zhimeir/cfsurvival)||
-|CSD|[Conformalized Survival Distributions: A Generic Post-Process to Increase Calibration](https://arxiv.org/abs/2405.07374)|ICML|2024.05|[Python](https://github.com/shi-ang/CSD)||
+|Adaptive-CSA|[Conformalized survival analysis with adaptive cut-offs](https://academic.oup.com/biomet/article-abstract/111/2/459/7458444)|Biometrika|2023.12|[R](https://github.com/zhimeir/adaptive_conformal_survival_paper)||
+|CSD|[Conformalized Survival Distributions: A Generic Post-Process to Increase Calibration](https://proceedings.mlr.press/v235/qi24a.html)|ICML|2024.05|[Python](https://github.com/shi-ang/CSD)|[Poster](https://github.com/shi-ang/CSD/blob/main/CSD_poster.pdf)|
 ***
 
 ## Evaluation Metrics
@@ -186,6 +190,7 @@ Last Update Time: 2024.06.16
 |---|----|--|--|---|---|
 |CopulaDeepSurvival|[Copula-Based Deep Survival Models for Dependent Censoring](https://proceedings.mlr.press/v216/gharari23a/gharari23a.pdf)|UAI|2023.06|[PyTorch](https://github.com/rgklab/copula_based_deep_survival)||
 |DCSurvival|[Deep Copula-Based Survival Analysis for Dependent Censoring with Identifiability Guarantees](https://arxiv.org/pdf/2312.15566.pdf)|AAAI|2023.12|[PyTorch](https://github.com/WeijiaZhang24/DCSurvival)||
+|PSA|[Proximal survival analysis to handle dependent right censoring](https://academic.oup.com/jrsssb/advance-article-abstract/doi/10.1093/jrsssb/qkae037/7674899?redirectedFrom=fulltext)|JRSS: Series B|2024.05|||
 ***
 
 ## Temporal Time Process
