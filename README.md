@@ -2,7 +2,7 @@
 
 A list of papers/resources in Survival Analysis that I have read or would like to read. Should you wish to suggest an addition to this list, please feel free to open an issue.
 
-Last Update Time: 2024.08.21
+Last Update Time: 2024.10.29
 
 - Categories
     - [Tutorials/Surveys](#tutorials-and-surveys)
@@ -16,6 +16,7 @@ Last Update Time: 2024.08.21
     - [Causal Inference](#causal-inference)
     - [Fairness](#fairness)
     - [Dependent Censoring](#dependent-censoring)
+    - [Synthetic Data Generation](#synthetic-data-generation)
     - [Temporal Time Process](#temporal-time-process)
     - [Applications](#applied-survival-analysis)
 
@@ -35,6 +36,7 @@ Last Update Time: 2024.08.21
 |[Avoiding C-hacking when evaluating survival distribution predictions with discrimination measures ](https://academic.oup.com/bioinformatics/article/38/17/4178/6640155)|Bioinformatics|2022.09|||
 |[Factors influencing clinician and patient interaction with machine learning-based risk prediction models: a systematic review](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(23)00241-8/fulltext)|Lancet Digital Health|2024.02|||
 |[Deep learning for survival analysis: a review](https://link.springer.com/article/10.1007/s10462-023-10681-3)|Artificial Intelligence Review|2024.02|||
+|[An Introduction to Deep Survival Analysis Models for Predicting Time-to-Event Outcomes](https://arxiv.org/abs/2410.01086)|Foundation and Trends in Machine Learning|2024.10|[PyTorch](https://github.com/georgehc/survival-intro)||
 ***
 
 ## ML and DL for Survival Analysis
@@ -65,7 +67,6 @@ Last Update Time: 2024.08.21
 |DCS|[Deep Learning-Based Discrete Calibrated Survival Prediction](https://arxiv.org/pdf/2208.08182.pdf)|ICDH|2022.08|[PyTorch](https://github.com/imsb-uke/dcsurv)||
 |CQRNN|[Censored Quantile Regression Neural Networks for Distribution-Free Survival Analysis](https://arxiv.org/abs/2205.13496)|NeurIPS|2022.11|[PyTorth](https://github.com/TeaPearce/Censored_Quantile_Regression_NN)|[Poster](https://neurips.cc/media/PosterPDFs/NeurIPS%202022/55198.png?t=1669392940.4432118)|
 |MSSDA|[Multi-Source Survival Domain Adaptation](https://arxiv.org/pdf/2212.00424.pdf)|AAAI|2023|||
-|SurvivalGAN|[SurvivalGAN: Generating Time-to-Event Data for Survival Analysis](https://proceedings.mlr.press/v206/norcliffe23a/norcliffe23a.pdf)|AIStats|2023.02|[PyTorch](https://github.com/vanderschaarlab/survivalgan)||
 |DH-MNN|[Metaparametric Neural Networks for Survival Analysis](https://ieeexplore.ieee.org/document/9585306)|TNNLS|2023.08|||
 |NSOTree|[Neural Survival Oblique Tree](https://arxiv.org/pdf/2309.13825.pdf)|Arxiv|2023.09|[Python](https://github.com/xs018/NSOTree)||
 |NNCDE|[Conditional Distribution Function Estimation Using Neural Networks for Censored and Uncensored Data](https://www.jmlr.org/papers/volume24/22-0657/22-0657.pdf)|JMLR|2023.12|[PyTorch](https://github.com/bingqing0729/NNCDE)||
@@ -73,7 +74,10 @@ Last Update Time: 2024.08.21
 |Diffsurv|[Differentiable sorting for censored time-to-event data](https://openreview.net/forum?id=gYWjI7wLhc)|NeurIPS|2023.12|[PyTorch](https://github.com/andre-vauvelle/diffsurv)||
 |OSST|[Optimal Sparse Survival Trees](https://arxiv.org/pdf/2401.15330.pdf)|AIStats|2024.01|[Python](https://github.com/ruizhang1996/optimal-sparse-survival-trees-public/)||
 |Survival Kernets|[Survival Kernets: Scalable and Interpretable Deep Kernel Survival Analysis with an Accuracy Guarantee](https://jmlr.org/papers/v25/22-0667.html)|JMLR|2024.02|[Pytorch](https://github.com/georgehc/survival-kernets)||
-|SurvReLU|[Inherently Interpretable Survival Analysis via Deep ReLU Networks](https://arxiv.org/pdf/2407.14463)|CIKM|2024.10|[Code](https://github.com/xs018/SurvReLU)||
+|deepAFT|[deepAFT: A nonlinear accelerated failure time model with artificial neural network](https://onlinelibrary.wiley.com/doi/10.1002/sim.10152?af=R)|Statistics in Medicine|2024.06|[R](https://github.com/statapps/deepAFT)||
+|SurvReLU|[Inherently Interpretable Survival Analysis via Deep ReLU Networks](https://arxiv.org/pdf/2407.14463)|CIKM|2024.07|[Code](https://github.com/xs018/SurvReLU)||
+|FastSurvival|[FastSurvival: Hidden Computational Blessings in Training Cox Proportional Hazards Models](https://arxiv.org/pdf/2410.19081)|NeurIPS|2024.10|||
+|ConSurv|[Toward a Well-Calibrated Discrimination via Survival Outcome-Aware Contrastive Learning](https://arxiv.org/pdf/2410.11340)|NeurIPS|2024.10|[PyTorch](https://github.com/dongzza97/ConSurv)||
 ***
 
 ## Objective Functions
@@ -144,6 +148,7 @@ Last Update Time: 2024.08.21
 |CSA|[Conformalized survival analysis](https://academic.oup.com/jrsssb/article/85/1/24/7008653)|JRSS: Series B|2023.01|[R](https://github.com/zhimeir/cfsurvival)||
 |Adaptive-CSA|[Conformalized survival analysis with adaptive cut-offs](https://academic.oup.com/biomet/article-abstract/111/2/459/7458444)|Biometrika|2023.12|[R](https://github.com/zhimeir/adaptive_conformal_survival_paper)||
 |CSD|[Conformalized Survival Distributions: A Generic Post-Process to Increase Calibration](https://proceedings.mlr.press/v235/qi24a.html)|ICML|2024.05|[Python](https://github.com/shi-ang/CSD)|[Poster](https://github.com/shi-ang/CSD/blob/main/CSD_poster.pdf)|
+|CSD-iPOT|[Toward Conditional Distribution Calibration in Survival Prediction](https://arxiv.org/abs/2410.20579)|NeurIPS|2024.10|[Python](https://github.com/shi-ang/MakeSurvivalCalibratedAgain)||
 ***
 
 ## Evaluation Metrics
@@ -193,6 +198,14 @@ Last Update Time: 2024.08.21
 |PSA|[Proximal survival analysis to handle dependent right censoring](https://academic.oup.com/jrsssb/advance-article-abstract/doi/10.1093/jrsssb/qkae037/7674899?redirectedFrom=fulltext)|JRSS: Series B|2024.05|||
 ***
 
+## Synthetic Data Generation
+
+|Keyword|Title|Publisher|Date|Code|Notes|
+|---|----|--|--|---|---|
+|SurvivalGAN|[SurvivalGAN: Generating Time-to-Event Data for Survival Analysis](https://proceedings.mlr.press/v206/norcliffe23a/norcliffe23a.pdf)|AIStats|2023.02|[PyTorch](https://github.com/vanderschaarlab/survivalgan)||
+||[Conditioning on Time is All You Need for Synthetic Survival Data Generation](https://arxiv.org/pdf/2405.17333)|Arxiv|2024.05|[PyTorch](https://github.com/anonymous-785/synthetic_survival_data)||
+
+
 ## Temporal Time Process
 
 |Title|Publisher|Date|Code|Notes|
@@ -221,4 +234,5 @@ Last Update Time: 2024.08.21
 |[Contrastive Learning of Temporal Distinctiveness for Survival Analysis in Electronic Health Records](https://dl.acm.org/doi/10.1145/3583780.3614824)|CIKM|2023.10|[Python](https://github.com/mohsen-nyb/OTCSurv)||
 |[Prototypical Information Bottlenecking and Disentangling for Multimodal Cancer Survival Prediction](https://arxiv.org/pdf/2401.01646.pdf)|ICLR|2024.01|[PyTorch](https://github.com/zylbuaa/PIBD)||
 |[MOTOR: A Time-to-Event Foundation Model For Structured Medical Records](https://openreview.net/forum?id=NialiwI2V6)|ICLR|2024.01|[PyTorch](https://github.com/som-shahlab/motor_code_release)||
-|[Multimodal Prototyping for cancer survival prediction](https://openreview.net/pdf?id=3MfvxH3Gia)|ICML|2024.05|[Python?](https://github.com/mahmoodlab/MMP)||
+|[Multimodal Prototyping for cancer survival prediction](https://openreview.net/pdf?id=3MfvxH3Gia)|ICML|2024.05|[PyTorch](https://github.com/mahmoodlab/MMP)||
+|[Leveraging Tumor Heterogeneity: Heterogeneous Graph Representation Learning for Cancer Survival Prediction in Whole Slide Images](https://neurips.cc/virtual/2024/poster/93310)|NeurIPS|2024.12|||
