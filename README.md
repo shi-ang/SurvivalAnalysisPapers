@@ -2,7 +2,7 @@
 
 A list of papers/resources in Survival Analysis that I have read or would like to read. Should you wish to suggest an addition to this list, please feel free to open an issue.
 
-Last Update Time: 2024.10.29
+Last Update Time: 2025.03.22
 
 - Categories
     - [Tutorials/Surveys](#tutorials-and-surveys)
@@ -15,6 +15,7 @@ Last Update Time: 2024.10.29
     - [Evaluation Metrics](#evaluation-metrics)
     - [Causal Inference](#causal-inference)
     - [Fairness](#fairness)
+    - [Out-Of-Distribution](#out-of-distribution)
     - [Dependent Censoring](#dependent-censoring)
     - [Synthetic Data Generation](#synthetic-data-generation)
     - [Temporal Time Process](#temporal-time-process)
@@ -187,6 +188,15 @@ Last Update Time: 2024.10.29
 |FISA|[Fair and Interpretable Models for Survival Analysis](https://dl.acm.org/doi/10.1145/3534678.3539259)|KDD|2022.08||[Video](https://dl.acm.org/doi/10.1145/3534678.3539259)|
 |IFS|[Censored Fairness through Awareness](https://ojs.aaai.org/index.php/AAAI/article/view/26708)|AAAI|2023.03|||
 ||[Fairness-Aware Processing Techniques in Survival Analysis: Promoting Equitable Predictions](https://link.springer.com/chapter/10.1007/978-3-031-43427-3_28)|ECML-PKDD|2023.09|||
+|DRO-Cox|[Fairness in Survival Analysis with Distributionally Robust Optimization](https://www.jmlr.org/papers/volume25/23-0888/23-0888.pdf)|JMLR|2024.08|[PyTorch](https://github.com/discovershu/DRO_survival)||
+***
+
+## Out-Of-Distribution
+
+|Keyword|Title|Publisher|Date|Code|Notes|
+|---|----|--|--|---|---|
+||[Evaluating Domain Generalization for Survival Analysis in Clinical Studies](https://proceedings.mlr.press/v174/pfisterer22a/pfisterer22a.pdf)|CHIL|2022.08|||
+|Stable-Cox|[Stable Cox regression for survival analysis under distribution shifts](https://www.nature.com/articles/s42256-024-00932-5)|Nature Machine Intelligence|2024.12|[PyTorch](https://github.com/googlebaba/StableCox)||
 ***
 
 ## Dependent Censoring
