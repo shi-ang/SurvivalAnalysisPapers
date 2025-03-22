@@ -79,6 +79,7 @@ Last Update Time: 2025.03.22
 |SurvReLU|[Inherently Interpretable Survival Analysis via Deep ReLU Networks](https://arxiv.org/pdf/2407.14463)|CIKM|2024.07|[Code](https://github.com/xs018/SurvReLU)||
 |FastSurvival|[FastSurvival: Hidden Computational Blessings in Training Cox Proportional Hazards Models](https://arxiv.org/pdf/2410.19081)|NeurIPS|2024.10|||
 |ConSurv|[Toward a Well-Calibrated Discrimination via Survival Outcome-Aware Contrastive Learning](https://arxiv.org/pdf/2410.11340)|NeurIPS|2024.10|[PyTorch](https://github.com/dongzza97/ConSurv)||
+|L2Boost-CUT / L2Boost-IMP|[Boosting Methods for Interval-censored Data with Regression and Classification](https://openreview.net/forum?id=DzbUL4AJPP)|ICLR|2025.02|[R](https://github.com/krisyuanbian/L2BOOST-IC)||
 ***
 
 ## Objective Functions
@@ -146,10 +147,12 @@ Last Update Time: 2025.03.22
 ||[A doubly robust censoring unbiased transformation](https://pubmed.ncbi.nlm.nih.gov/22550646/)|The International Journal of Biostatistics|2007.03|||
 ||[Adapting machine learning techniques to censored time-to-event health record data: A general-purpose approach using inverse probability of censoring weighting](https://www.sciencedirect.com/science/article/pii/S1532046416000496)|Journal of Biomedical Informatics|2016.03|[R](https://github.com/docvock/JBI_IPCW_for_ML)||
 ||[A General Machine Learning Framework for Survival Analysis](https://arxiv.org/abs/2006.15442)|ECML|2020.06|[R](https://github.com/adibender/machine-learning-for-survival-ecml2020)||
+||[A Kernel Log-Rank Test of Independence for Right-Censored Data](https://www.tandfonline.com/doi/abs/10.1080/01621459.2021.1961784)|JASA|2021.09|[Python](https://github.com/davidrindt/KernelLogrankTest)||
 |CSA|[Conformalized survival analysis](https://academic.oup.com/jrsssb/article/85/1/24/7008653)|JRSS: Series B|2023.01|[R](https://github.com/zhimeir/cfsurvival)||
 |Adaptive-CSA|[Conformalized survival analysis with adaptive cut-offs](https://academic.oup.com/biomet/article-abstract/111/2/459/7458444)|Biometrika|2023.12|[R](https://github.com/zhimeir/adaptive_conformal_survival_paper)||
-|CSD|[Conformalized Survival Distributions: A Generic Post-Process to Increase Calibration](https://proceedings.mlr.press/v235/qi24a.html)|ICML|2024.05|[Python](https://github.com/shi-ang/CSD)|[Poster](https://github.com/shi-ang/CSD/blob/main/CSD_poster.pdf)|
-|CSD-iPOT|[Toward Conditional Distribution Calibration in Survival Prediction](https://arxiv.org/abs/2410.20579)|NeurIPS|2024.10|[Python](https://github.com/shi-ang/MakeSurvivalCalibratedAgain)||
+|CSD|[Conformalized Survival Distributions: A Generic Post-Process to Increase Calibration](https://proceedings.mlr.press/v235/qi24a.html)|ICML|2024.05|[Python](https://github.com/shi-ang/MakeSurvivalCalibratedAgain)|[Poster](https://github.com/shi-ang/MakeSurvivalCalibratedAgain/blob/main/posters/CSD_poster.pdf)|
+|CiPOT|[Toward Conditional Distribution Calibration in Survival Prediction](https://arxiv.org/abs/2410.20579)|NeurIPS|2024.10|[Python](https://github.com/shi-ang/MakeSurvivalCalibratedAgain)|[Poster](https://github.com/shi-ang/MakeSurvivalCalibratedAgain/blob/main/posters/CSDiPOT_poster.pdf)|
+|Fused|[Conformalized Survival Analysis for General Right-Censored Data](https://openreview.net/forum?id=JQtuCumAFD)|ICLR|2025.02|||
 ***
 
 ## Evaluation Metrics
@@ -178,6 +181,7 @@ Last Update Time: 2025.03.22
 |CMHE|[Counterfactual Phenotyping with Censored Time-to-Events](https://arxiv.org/abs/2202.11089)|KDD|2022.02|[PyTorch](https://autonlab.github.io/auton-survival/cmhe/)||
 |DNMC|[Disentangling Whether from When in a Neural Mixture Cure Model for Failure Time Data](https://proceedings.mlr.press/v151/engelhard22a/engelhard22a.pdf)|AISTATS|2022.03|[TensorFlow](https://github.com/mengelhard/dnmc/)||
 |compCATE|[Understanding the Impact of Competing Events on Heterogeneous Treatment Effect Estimation from Time-to-Event Data](https://arxiv.org/pdf/2302.12718v1.pdf)|AISTATS|2023.02|[Python](https://github.com/AliciaCurth/CompCATE)||
+|PCI2S|[Regression-based proximal causal inference for right-censored time-to-event data](https://arxiv.org/abs/2409.08924)|Arxiv|2024.09|[R](https://github.com/KenLi93/p2sls_surv_manuscript)||
 ***
 
 ## Fairness
@@ -245,4 +249,5 @@ Last Update Time: 2025.03.22
 |[Prototypical Information Bottlenecking and Disentangling for Multimodal Cancer Survival Prediction](https://arxiv.org/pdf/2401.01646.pdf)|ICLR|2024.01|[PyTorch](https://github.com/zylbuaa/PIBD)||
 |[MOTOR: A Time-to-Event Foundation Model For Structured Medical Records](https://openreview.net/forum?id=NialiwI2V6)|ICLR|2024.01|[PyTorch](https://github.com/som-shahlab/motor_code_release)||
 |[Multimodal Prototyping for cancer survival prediction](https://openreview.net/pdf?id=3MfvxH3Gia)|ICML|2024.05|[PyTorch](https://github.com/mahmoodlab/MMP)||
-|[Leveraging Tumor Heterogeneity: Heterogeneous Graph Representation Learning for Cancer Survival Prediction in Whole Slide Images](https://neurips.cc/virtual/2024/poster/93310)|NeurIPS|2024.12|||
+|[Leveraging Tumor Heterogeneity: Heterogeneous Graph Representation Learning for Cancer Survival Prediction in Whole Slide Images](https://papers.nips.cc/paper_files/paper/2024/hash/760341adc5632de3f1cf2e8d22215a93-Abstract-Conference.html)|NeurIPS|2024.12|[PyTorch](https://github.com/wjx-error/ProtoSurv)|[Poster](https://neurips.cc/media/PosterPDFs/NeurIPS%202024/93310.png?t=1730963355.0153153)|
+|[Interpretable Vision-Language Survival Analysis with Ordinal Inductive Bias for Computational Pathology](https://openreview.net/forum?id=trj2Jq8riA)|ICLR|2025.02|[PyTorch](https://github.com/liupei101/VLSA)||
