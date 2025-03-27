@@ -2,7 +2,7 @@
 
 A list of papers/resources in Survival Analysis that I have read or would like to read. Should you wish to suggest an addition to this list, please feel free to open an issue.
 
-Last Update Time: 2025.03.22
+Last Update Time: 2025.03.27
 
 - Categories
     - [Tutorials/Surveys](#tutorials-and-surveys)
@@ -37,6 +37,7 @@ Last Update Time: 2025.03.22
 |[Avoiding C-hacking when evaluating survival distribution predictions with discrimination measures ](https://academic.oup.com/bioinformatics/article/38/17/4178/6640155)|Bioinformatics|2022.09|||
 |[Factors influencing clinician and patient interaction with machine learning-based risk prediction models: a systematic review](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(23)00241-8/fulltext)|Lancet Digital Health|2024.02|||
 |[Deep learning for survival analysis: a review](https://link.springer.com/article/10.1007/s10462-023-10681-3)|Artificial Intelligence Review|2024.02|||
+|[Review of Language Models for Survival Analysis](https://openreview.net/forum?id=ZLUsZ52ibx)|AAAI Sring Symposium on Clinical FMs|2024.05|[PyTorch](https://github.com/Jeanselme/LLM-For-Survival-Analysis)||
 |[An Introduction to Deep Survival Analysis Models for Predicting Time-to-Event Outcomes](https://arxiv.org/abs/2410.01086)|Foundation and Trends in Machine Learning|2024.10|[PyTorch](https://github.com/georgehc/survival-intro)||
 ***
 
@@ -108,6 +109,7 @@ Last Update Time: 2025.03.22
 |Dynamic-DeepHit|[Dynamic-DeepHit: A Deep Learning Approach for Dynamic Survival Analysis With Competing Risks Based on Longitudinal Data](https://ieeexplore.ieee.org/document/8681104)|TBME|2019.04|[TensorFlow](https://github.com/chl8856/Dynamic-DeepHit)||
 |TSNN & RSNN|[Survival neural networks for time-to-event prediction in longitudinal study](https://link.springer.com/article/10.1007%2Fs10115-020-01472-1)|Knowledge and Information System|2020.05||Extend Paper|
 |DRSM|[Deep Parametric Time-to-Event Regression with Time-Varying Covariates](http://proceedings.mlr.press/v146/nagpal21a.html)|AAAI Spring Symposium (SP-ACA)|2021.03|[PyTorch](https://autonlab.github.io/DeepSurvivalMachines/#deep-recurrent-survival-machines)||
+|SubLign|[Clustering Interval-Censored Time-Series for Disease Phenotyping](https://ojs.aaai.org/index.php/AAAI/article/view/20570/20329)|AAAI|2022.02|||
 |TCSA|[Temporally-Consistent Survival Analysis](https://proceedings.neurips.cc/paper_files/paper/2022/hash/455e1e30edf721bd7fa334fffabdcad8-Abstract-Conference.html)|NeurIPS|2022.11|[Python](https://github.com/spotify-research/tdsurv)|[Poster](https://neurips.cc/media/PosterPDFs/NeurIPS%202022/118bd558033a1016fcc82560c65cca5f.png?t=1667814990.0636194)|
 |SurvPP|[Survival Permanental Processes for Survival Analysis with Time-Varying Covariates](https://openreview.net/forum?id=CYCzfXn6cZ)|NeurIPS|2023.12|[Python](https://github.com/HidKim/SurvPP)||
 |CoxSig|[Dynamic Survival Analysis with Controlled Latent States](https://arxiv.org/abs/2401.17077)|ICML|2024.01|[PyTorch](https://github.com/LinusBleistein/signature_survival)||
@@ -132,11 +134,13 @@ Last Update Time: 2025.03.22
 ||[On pseudo-values for regression analysis in competing risks models](https://pubmed.ncbi.nlm.nih.gov/19051013/)|Lifetime Data Analysis|2009.06|||
 |DMGP|[Deep Multi-task Gaussian Processes for Survival Analysis with Competing Risks](https://papers.nips.cc/paper_files/paper/2017/hash/861dc9bd7f4e7dd3cccd534d0ae2a2e9-Abstract.html)|NeurIPS|2017.12|||
 |DeepHit|[DeepHit: A Deep Learning Approach to Survival Analysis with Competing Risks](http://medianetlab.ee.ucla.edu/papers/AAAI_2018_DeepHit.pdf)|AAAI|2018.02|[TensorFlow](https://github.com/chl8856/DeepHit)||
-|DSM|[Deep Survival Machines: Fully Parametric Survival Regression and Representation Learning for Censored Data With Competing Risks](https://ieeexplore.ieee.org/abstract/document/9326348)|IEEE JBHI|2021.01|[Pytorch](https://autonlab.org/auton-survival)||
+|DSM|[Deep Survival Machines: Fully Parametric Survival Regression and Representation Learning for Censored Data With Competing Risks](https://ieeexplore.ieee.org/abstract/document/9326348)|IEEE JBHI|2021.01|[PyTorch](https://autonlab.org/auton-survival)||
 |HSA|[A Hierarchical Approach to Multi-Event Survival Analysis](https://ojs.aaai.org/index.php/AAAI/article/view/16138)|AAAI|2021.05|[PyTorch](https://github.com/MLD3/Hierarchical_Survival_Analysis)||
 |SurvTRACE|[SurvTRACE: Transformers for Survival Analysis with Competing Events](https://arxiv.org/abs/2110.00855)|Arxiv|2021.10|[Pytorch](https://github.com/RyanWangZf/SurvTRACE)||
 |Deep-CSA|[Deep-CSA: Deep Contrastive Learning for Dynamic Survival Analysis with Competing Risks](https://ieeexplore.ieee.org/abstract/document/9756287)|IEEE JBHI|2022.04|||
 |DeepPseudo|[DeepPseudo: Pseudo Value Based Deep Learning Models for Competing Risk Analysis](https://arxiv.org/pdf/2207.05247.pdf)|KDD DSHealth Workshop|2022.08|||
+|HACSurv|[HACSurv: A Hierarchical Copula-Based Approach for Survival Analysis with Dependent Competing Risks](https://arxiv.org/pdf/2410.15180)|AIStats|2025.02|[PyTorch](https://github.com/Raymvp/HACSurv)||
+|SurvivalBoost|[Survival Models: Proper Scoring Rule and Stochastic Optimization with Competing Risks](https://arxiv.org/pdf/2410.16765)|AIStats|2025.02|||
 ***
 
 ## Generalized Survival Analysis Methods
@@ -149,6 +153,7 @@ Last Update Time: 2025.03.22
 ||[A General Machine Learning Framework for Survival Analysis](https://arxiv.org/abs/2006.15442)|ECML|2020.06|[R](https://github.com/adibender/machine-learning-for-survival-ecml2020)||
 ||[A Kernel Log-Rank Test of Independence for Right-Censored Data](https://www.tandfonline.com/doi/abs/10.1080/01621459.2021.1961784)|JASA|2021.09|[Python](https://github.com/davidrindt/KernelLogrankTest)||
 |CSA|[Conformalized survival analysis](https://academic.oup.com/jrsssb/article/85/1/24/7008653)|JRSS: Series B|2023.01|[R](https://github.com/zhimeir/cfsurvival)||
+|anchor-vis|[A General Framework for Visualizing Embedding Spaces of Neural Survival Analysis Models Based on Angular Information](https://proceedings.mlr.press/v209/chen23b.html)|CHIL|2023.07|[Python](https://github.com/georgehc/anchor-vis/)||
 |Adaptive-CSA|[Conformalized survival analysis with adaptive cut-offs](https://academic.oup.com/biomet/article-abstract/111/2/459/7458444)|Biometrika|2023.12|[R](https://github.com/zhimeir/adaptive_conformal_survival_paper)||
 |CSD|[Conformalized Survival Distributions: A Generic Post-Process to Increase Calibration](https://proceedings.mlr.press/v235/qi24a.html)|ICML|2024.05|[Python](https://github.com/shi-ang/MakeSurvivalCalibratedAgain)|[Poster](https://github.com/shi-ang/MakeSurvivalCalibratedAgain/blob/main/posters/CSD_poster.pdf)|
 |CiPOT|[Toward Conditional Distribution Calibration in Survival Prediction](https://arxiv.org/abs/2410.20579)|NeurIPS|2024.10|[Python](https://github.com/shi-ang/MakeSurvivalCalibratedAgain)|[Poster](https://github.com/shi-ang/MakeSurvivalCalibratedAgain/blob/main/posters/CSDiPOT_poster.pdf)|
@@ -249,5 +254,6 @@ Last Update Time: 2025.03.22
 |[Prototypical Information Bottlenecking and Disentangling for Multimodal Cancer Survival Prediction](https://arxiv.org/pdf/2401.01646.pdf)|ICLR|2024.01|[PyTorch](https://github.com/zylbuaa/PIBD)||
 |[MOTOR: A Time-to-Event Foundation Model For Structured Medical Records](https://openreview.net/forum?id=NialiwI2V6)|ICLR|2024.01|[PyTorch](https://github.com/som-shahlab/motor_code_release)||
 |[Multimodal Prototyping for cancer survival prediction](https://openreview.net/pdf?id=3MfvxH3Gia)|ICML|2024.05|[PyTorch](https://github.com/mahmoodlab/MMP)||
+|[Predicting Long-Term Allograft Survival in Liver Transplant Recipients](https://arxiv.org/abs/2408.05437)|ML4HC|2024.08|[PyTorch](https://github.com/rgklab/model_allograft_survival)||
 |[Leveraging Tumor Heterogeneity: Heterogeneous Graph Representation Learning for Cancer Survival Prediction in Whole Slide Images](https://papers.nips.cc/paper_files/paper/2024/hash/760341adc5632de3f1cf2e8d22215a93-Abstract-Conference.html)|NeurIPS|2024.12|[PyTorch](https://github.com/wjx-error/ProtoSurv)|[Poster](https://neurips.cc/media/PosterPDFs/NeurIPS%202024/93310.png?t=1730963355.0153153)|
 |[Interpretable Vision-Language Survival Analysis with Ordinal Inductive Bias for Computational Pathology](https://openreview.net/forum?id=trj2Jq8riA)|ICLR|2025.02|[PyTorch](https://github.com/liupei101/VLSA)||
