@@ -2,7 +2,7 @@
 
 A list of papers/resources in Survival Analysis that I have read or would like to read. Should you wish to suggest an addition to this list, please feel free to open an issue.
 
-Last Update Time: 2025.03.27
+Last Update Time: 2025.04.17
 
 - Categories
     - [Tutorials/Surveys](#tutorials-and-surveys)
@@ -151,6 +151,7 @@ Last Update Time: 2025.03.27
 ||[A doubly robust censoring unbiased transformation](https://pubmed.ncbi.nlm.nih.gov/22550646/)|The International Journal of Biostatistics|2007.03|||
 ||[Adapting machine learning techniques to censored time-to-event health record data: A general-purpose approach using inverse probability of censoring weighting](https://www.sciencedirect.com/science/article/pii/S1532046416000496)|Journal of Biomedical Informatics|2016.03|[R](https://github.com/docvock/JBI_IPCW_for_ML)||
 ||[A General Machine Learning Framework for Survival Analysis](https://arxiv.org/abs/2006.15442)|ECML|2020.06|[R](https://github.com/adibender/machine-learning-for-survival-ecml2020)||
+|Parametrics Pseudo-observations|[Regression models using parametric pseudo-observations](https://onlinelibrary.wiley.com/doi/full/10.1002/sim.8586)|Statistics in Medicine|2020.06|||
 ||[A Kernel Log-Rank Test of Independence for Right-Censored Data](https://www.tandfonline.com/doi/abs/10.1080/01621459.2021.1961784)|JASA|2021.09|[Python](https://github.com/davidrindt/KernelLogrankTest)||
 |CSA|[Conformalized survival analysis](https://academic.oup.com/jrsssb/article/85/1/24/7008653)|JRSS: Series B|2023.01|[R](https://github.com/zhimeir/cfsurvival)||
 |anchor-vis|[A General Framework for Visualizing Embedding Spaces of Neural Survival Analysis Models Based on Angular Information](https://proceedings.mlr.press/v209/chen23b.html)|CHIL|2023.07|[Python](https://github.com/georgehc/anchor-vis/)||
@@ -198,6 +199,7 @@ Last Update Time: 2025.03.27
 |IFS|[Censored Fairness through Awareness](https://ojs.aaai.org/index.php/AAAI/article/view/26708)|AAAI|2023.03|||
 ||[Fairness-Aware Processing Techniques in Survival Analysis: Promoting Equitable Predictions](https://link.springer.com/chapter/10.1007/978-3-031-43427-3_28)|ECML-PKDD|2023.09|||
 |DRO-Cox|[Fairness in Survival Analysis with Distributionally Robust Optimization](https://www.jmlr.org/papers/volume25/23-0888/23-0888.pdf)|JMLR|2024.08|[PyTorch](https://github.com/discovershu/DRO_survival)||
+|FairFSA|[Fair Federated Survival Analysis](https://ojs.aaai.org/index.php/AAAI/article/view/34214)|AAAI|2025.04|||
 ***
 
 ## Out-Of-Distribution
@@ -257,3 +259,4 @@ Last Update Time: 2025.03.27
 |[Predicting Long-Term Allograft Survival in Liver Transplant Recipients](https://arxiv.org/abs/2408.05437)|ML4HC|2024.08|[PyTorch](https://github.com/rgklab/model_allograft_survival)||
 |[Leveraging Tumor Heterogeneity: Heterogeneous Graph Representation Learning for Cancer Survival Prediction in Whole Slide Images](https://papers.nips.cc/paper_files/paper/2024/hash/760341adc5632de3f1cf2e8d22215a93-Abstract-Conference.html)|NeurIPS|2024.12|[PyTorch](https://github.com/wjx-error/ProtoSurv)|[Poster](https://neurips.cc/media/PosterPDFs/NeurIPS%202024/93310.png?t=1730963355.0153153)|
 |[Interpretable Vision-Language Survival Analysis with Ordinal Inductive Bias for Computational Pathology](https://openreview.net/forum?id=trj2Jq8riA)|ICLR|2025.02|[PyTorch](https://github.com/liupei101/VLSA)||
+|[From Representation Space to Prognostic Insights: Whole Slide Image Generation with Hierarchical Diffusion Model for Survival Prediction](https://ojs.aaai.org/index.php/AAAI/article/view/32788)|AAAI|2025.04|||
