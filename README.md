@@ -224,8 +224,8 @@ Last Update Time: 2025.04.17
 |Keyword|Title|Publisher|Date|Code|Notes|
 |---|----|--|--|---|---|
 |SurvivalGAN|[SurvivalGAN: Generating Time-to-Event Data for Survival Analysis](https://proceedings.mlr.press/v206/norcliffe23a/norcliffe23a.pdf)|AIStats|2023.02|[PyTorch](https://github.com/vanderschaarlab/survivalgan)||
+||[SYNDSURV: A simple framework for survival analysis with data distributed across multiple institutions]([https://arxiv.org/pdf/2405.17333](https://www.sciencedirect.com/science/article/pii/S001048252400372X))|Computers in Biology and Medicine|2024.04|[PyTorch]||
 ||[Conditioning on Time is All You Need for Synthetic Survival Data Generation](https://arxiv.org/pdf/2405.17333)|Arxiv|2024.05|[PyTorch](https://github.com/anonymous-785/synthetic_survival_data)||
-
 
 ## Temporal Time Process
 
@@ -259,4 +259,5 @@ Last Update Time: 2025.04.17
 |[Predicting Long-Term Allograft Survival in Liver Transplant Recipients](https://arxiv.org/abs/2408.05437)|ML4HC|2024.08|[PyTorch](https://github.com/rgklab/model_allograft_survival)||
 |[Leveraging Tumor Heterogeneity: Heterogeneous Graph Representation Learning for Cancer Survival Prediction in Whole Slide Images](https://papers.nips.cc/paper_files/paper/2024/hash/760341adc5632de3f1cf2e8d22215a93-Abstract-Conference.html)|NeurIPS|2024.12|[PyTorch](https://github.com/wjx-error/ProtoSurv)|[Poster](https://neurips.cc/media/PosterPDFs/NeurIPS%202024/93310.png?t=1730963355.0153153)|
 |[Interpretable Vision-Language Survival Analysis with Ordinal Inductive Bias for Computational Pathology](https://openreview.net/forum?id=trj2Jq8riA)|ICLR|2025.02|[PyTorch](https://github.com/liupei101/VLSA)||
+|[VAE-Surv: A novel approach for genetic-based clustering and prognosis prediction in myelodysplastic syndromes](https://www.sciencedirect.com/science/article/pii/S0169260725000227)|Computer Methods and Programs in Biomedicine|2025.03|[PyTorch](https://github.com/compbiomed-unito/VAE-Surv)||
 |[From Representation Space to Prognostic Insights: Whole Slide Image Generation with Hierarchical Diffusion Model for Survival Prediction](https://ojs.aaai.org/index.php/AAAI/article/view/32788)|AAAI|2025.04|||
