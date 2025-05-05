@@ -224,7 +224,7 @@ Last Update Time: 2025.04.17
 |Keyword|Title|Publisher|Date|Code|Notes|
 |---|----|--|--|---|---|
 |SurvivalGAN|[SurvivalGAN: Generating Time-to-Event Data for Survival Analysis](https://proceedings.mlr.press/v206/norcliffe23a/norcliffe23a.pdf)|AIStats|2023.02|[PyTorch](https://github.com/vanderschaarlab/survivalgan)||
-||[SYNDSURV: A simple framework for survival analysis with data distributed across multiple institutions]([https://arxiv.org/pdf/2405.17333](https://www.sciencedirect.com/science/article/pii/S001048252400372X))|Computers in Biology and Medicine|2024.04|[PyTorch]||
+||[SYNDSURV: A simple framework for survival analysis with data distributed across multiple institutions](https://www.sciencedirect.com/science/article/pii/S001048252400372X)|Computers in Biology and Medicine|2024.04|[PyTorch](https://github.com/compbiomed-unito/SYNDSURV)||
 ||[Conditioning on Time is All You Need for Synthetic Survival Data Generation](https://arxiv.org/pdf/2405.17333)|Arxiv|2024.05|[PyTorch](https://github.com/anonymous-785/synthetic_survival_data)||
 
 ## Temporal Time Process
