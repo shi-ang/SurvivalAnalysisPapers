@@ -39,6 +39,7 @@ Last Update Time: 2025.04.17
 |[Deep learning for survival analysis: a review](https://link.springer.com/article/10.1007/s10462-023-10681-3)|Artificial Intelligence Review|2024.02|||
 |[Review of Language Models for Survival Analysis](https://openreview.net/forum?id=ZLUsZ52ibx)|AAAI Sring Symposium on Clinical FMs|2024.05|[PyTorch](https://github.com/Jeanselme/LLM-For-Survival-Analysis)||
 |[An Introduction to Deep Survival Analysis Models for Predicting Time-to-Event Outcomes](https://arxiv.org/abs/2410.01086)|Foundation and Trends in Machine Learning|2024.10|[PyTorch](https://github.com/georgehc/survival-intro)||
+|[Beyond Cox Models: Assessing the Performance of Machine-Learning Methods in Non-Proportional Hazards and Non-Linear Survival Analysis](https://arxiv.org/abs/2504.17568)|ArXiv|2025.04|[PyTorch](https://github.com/compbiomed-unito/survhive)||
 ***
 
 ## ML and DL for Survival Analysis
