@@ -1,11 +1,12 @@
 # Survival Analysis Paper List
 
-A list of papers/resources in Survival Analysis that I have read or would like to read. Should you wish to suggest an addition to this list, please feel free to open an issue.
+A list of papers/resources in Survival Analysis that I have read or would like to read. Should you wish to suggest an addition to this list, please feel free to open an issue or pull request.
 
-Last Update Time: 2025.04.17
+Last Update Time: 2025.06.07
 
 - Categories
     - [Tutorials/Surveys](#tutorials-and-surveys)
+    - [Perspective](#perspective-and-opinion)
 	- [ML/DL Survival Models](#ml-and-dl-for-survival-analysis)
     - [Objective Functions](#objective-functions)
     - [Time-varying Covariates Models](#time-varying-covariates-models)
@@ -42,6 +43,13 @@ Last Update Time: 2025.04.17
 |[Beyond Cox Models: Assessing the Performance of Machine-Learning Methods in Non-Proportional Hazards and Non-Linear Survival Analysis](https://arxiv.org/abs/2504.17568)|ArXiv|2025.04|[PyTorch](https://github.com/compbiomed-unito/survhive)||
 ***
 
+## Perspective and Opinion
+|Title|Publisher|Date|
+|-------|---|--|
+|[Why Test for Proportional Hazards](https://jamanetwork.com/journals/jama/fullarticle/2763185)|JAMA|2020.03|
+|[Stop Chasing the C-index: This Is How We Should Evaluate Our Survival Models](https://arxiv.org/abs/2506.02075)|Arxiv|2025.06|
+***
+
 ## ML and DL for Survival Analysis
 
 |Keyword|Title|Publisher|Date|Code|Notes|
@@ -49,6 +57,7 @@ Last Update Time: 2025.04.17
 |GBMCOX|[The State of Boosting](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.22.276&rep=rep1&type=pdf)|Computing Science and Statistics|2008|[R](https://github.com/gbm-developers/gbm)||
 |RSF|[Random Survival Forest](https://arxiv.org/pdf/0811.1645.pdf)|The Annals of Applied Statistics|2008|[R](https://kogalur.github.io/randomForestSRC/)||
 |MTLR|[Learning Patient-Specific Cancer Survival Distributions as a Sequence of Dependent Regressors](http://www.cs.cornell.edu/~cnyu/papers/nips11_survival.pdf)|NeurIPS|2011|[R](https://cran.r-project.org/web/packages/MTLR/index.html)|[Poster](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.482.8967&rep=rep1&type=pdf)|
+|DSA|[Deep Survival Analysis](https://proceedings.mlr.press/v56/Ranganath16.html)|ML4HC|2016|||
 |N-MTLR|[Deep Neural Networks for Survival Analysis Based on a Multi-Task Framework](https://arxiv.org/abs/1801.05512)|Arxiv|2018.01|[Python](https://square.github.io/pysurvival/)||
 |DeepSurv|[DeepSurv: personalized treatment recommender system using a Cox proportional hazards deep neural network](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-018-0482-1)|BMC Medical Research Methodology|2018.02|[Python](https://github.com/jaredleekatzman/DeepSurv)||
 |DATE & DRAFT|[Adversarial Time-to-Event Modeling](https://arxiv.org/abs/1804.03184)|ICML|2018.07|[TensorFlow](https://github.com/paidamoyo/adversarial_time_to_event)||
@@ -65,6 +74,7 @@ Last Update Time: 2025.04.17
 |DeepEH|[Deep Extended Hazard Models for Survival Analysis](https://openreview.net/forum?id=GUD7rNkaWKr)|NeurIPS|2021.12|||
 |VaDeSC|[A Deep Variational Approach to Clustering Survival Data](https://openreview.net/forum?id=RQ428ZptQfU)|ICLR|2022.03|[TensorFlow](https://github.com/i6092467/vadesc)||
 |ODE-Cox|[Survival Analysis via Ordinary Differential Equations](https://www.tandfonline.com/doi/abs/10.1080/01621459.2022.2051519)|JASA|2022|||
+|DeSurv|[Derivative-Based Neural Modelling of Cumulative Distribution Functions for Survival Analysis](https://proceedings.mlr.press/v151/danks22a/danks22a.pdf)|AIStats|2022.05|[PyTorch](https://github.com/djdanks/DeSurv)||
 |Survival MDN|[Survival Mixture Density Networks](https://arxiv.org/pdf/2208.10759.pdf)|ML4HC|2022.05|[PyTorch](https://github.com/XintianHan/Survival-MDN)||
 |SODEN|[SODEN: A Scalable Continuous-Time Survival Model through Ordinary Differential Equation Networks](https://arxiv.org/pdf/2008.08637.pdf)|JMLR|2022|[PyTorch](https://github.com/jiaqima/SODEN)||
 |DCS|[Deep Learning-Based Discrete Calibrated Survival Prediction](https://arxiv.org/pdf/2208.08182.pdf)|ICDH|2022.08|[PyTorch](https://github.com/imsb-uke/dcsurv)||
@@ -133,6 +143,7 @@ Last Update Time: 2025.04.17
 |Keyword|Title|Publisher|Date|Code|Notes|
 |---|----|--|--|---|---|
 ||[On pseudo-values for regression analysis in competing risks models](https://pubmed.ncbi.nlm.nih.gov/19051013/)|Lifetime Data Analysis|2009.06|||
+||[The Survival Filter: Joint Survival Analysis with a Latent Time Series](https://auai.org/uai2015/proceedings/papers/246.pdf)|UAI|2015|||
 |DMGP|[Deep Multi-task Gaussian Processes for Survival Analysis with Competing Risks](https://papers.nips.cc/paper_files/paper/2017/hash/861dc9bd7f4e7dd3cccd534d0ae2a2e9-Abstract.html)|NeurIPS|2017.12|||
 |DeepHit|[DeepHit: A Deep Learning Approach to Survival Analysis with Competing Risks](http://medianetlab.ee.ucla.edu/papers/AAAI_2018_DeepHit.pdf)|AAAI|2018.02|[TensorFlow](https://github.com/chl8856/DeepHit)||
 |DSM|[Deep Survival Machines: Fully Parametric Survival Regression and Representation Learning for Censored Data With Competing Risks](https://ieeexplore.ieee.org/abstract/document/9326348)|IEEE JBHI|2021.01|[PyTorch](https://autonlab.org/auton-survival)||
