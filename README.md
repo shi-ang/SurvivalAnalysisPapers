@@ -17,7 +17,7 @@ Last Update Time: 2025.06.07
     - [Causal Inference](#causal-inference)
     - [Fairness](#fairness)
     - [Out-Of-Distribution](#out-of-distribution)
-    - [Dependent Censoring](#dependent-censoring)
+    - [Dependent Censoring](#dependent-censoring-and-competing-risks)
     - [Synthetic Data Generation](#synthetic-data-generation)
     - [Temporal Time Process](#temporal-time-process)
     - [Applications](#applied-survival-analysis)
@@ -92,6 +92,8 @@ Last Update Time: 2025.06.07
 |FastSurvival|[FastSurvival: Hidden Computational Blessings in Training Cox Proportional Hazards Models](https://arxiv.org/pdf/2410.19081)|NeurIPS|2024.10|||
 |ConSurv|[Toward a Well-Calibrated Discrimination via Survival Outcome-Aware Contrastive Learning](https://arxiv.org/pdf/2410.11340)|NeurIPS|2024.10|[PyTorch](https://github.com/dongzza97/ConSurv)||
 |L2Boost-CUT / L2Boost-IMP|[Boosting Methods for Interval-censored Data with Regression and Classification](https://openreview.net/forum?id=DzbUL4AJPP)|ICLR|2025.02|[R](https://github.com/krisyuanbian/L2BOOST-IC)||
+|CDVI|[Censor Dependent Variational Inference](https://arxiv.org/pdf/2502.09591)|ICML|2025.05|[Pytorch](https://github.com/ChuanhuiLiu/CDVI)||
+|ALD|[Learning Survival Distributions with the Asymmetric Laplace Distribution](https://openreview.net/forum?id=b90EKQbL7B&noteId=opCpFG5Yw7)|ICML|2025.05|[Pytorch](https://github.com/demingsheng/ALD)||
 ***
 
 ## Objective Functions
@@ -151,7 +153,6 @@ Last Update Time: 2025.06.07
 |SurvTRACE|[SurvTRACE: Transformers for Survival Analysis with Competing Events](https://arxiv.org/abs/2110.00855)|Arxiv|2021.10|[Pytorch](https://github.com/RyanWangZf/SurvTRACE)||
 |Deep-CSA|[Deep-CSA: Deep Contrastive Learning for Dynamic Survival Analysis with Competing Risks](https://ieeexplore.ieee.org/abstract/document/9756287)|IEEE JBHI|2022.04|||
 |DeepPseudo|[DeepPseudo: Pseudo Value Based Deep Learning Models for Competing Risk Analysis](https://arxiv.org/pdf/2207.05247.pdf)|KDD DSHealth Workshop|2022.08|||
-|HACSurv|[HACSurv: A Hierarchical Copula-Based Approach for Survival Analysis with Dependent Competing Risks](https://arxiv.org/pdf/2410.15180)|AIStats|2025.02|[PyTorch](https://github.com/Raymvp/HACSurv)||
 |SurvivalBoost|[Survival Models: Proper Scoring Rule and Stochastic Optimization with Competing Risks](https://arxiv.org/pdf/2410.16765)|AIStats|2025.02|||
 ***
 
@@ -200,6 +201,7 @@ Last Update Time: 2025.06.07
 |DNMC|[Disentangling Whether from When in a Neural Mixture Cure Model for Failure Time Data](https://proceedings.mlr.press/v151/engelhard22a/engelhard22a.pdf)|AISTATS|2022.03|[TensorFlow](https://github.com/mengelhard/dnmc/)||
 |compCATE|[Understanding the Impact of Competing Events on Heterogeneous Treatment Effect Estimation from Time-to-Event Data](https://arxiv.org/pdf/2302.12718v1.pdf)|AISTATS|2023.02|[Python](https://github.com/AliciaCurth/CompCATE)||
 |PCI2S|[Regression-based proximal causal inference for right-censored time-to-event data](https://arxiv.org/abs/2409.08924)|Arxiv|2024.09|[R](https://github.com/KenLi93/p2sls_surv_manuscript)||
+||[Doubly protected estimation for survival outcomes utilizing external controls for randomized clinical trials](https://arxiv.org/abs/2410.18409)|ICML|2025.05|R?||
 ***
 
 ## Fairness
@@ -222,13 +224,16 @@ Last Update Time: 2025.06.07
 |Stable-Cox|[Stable Cox regression for survival analysis under distribution shifts](https://www.nature.com/articles/s42256-024-00932-5)|Nature Machine Intelligence|2024.12|[PyTorch](https://github.com/googlebaba/StableCox)||
 ***
 
-## Dependent Censoring
+## Dependent Censoring and Competing Risks
 
 |Keyword|Title|Publisher|Date|Code|Notes|
 |---|----|--|--|---|---|
+||[Copula Based Cox Proportional Hazards Models for Dependent Censoring](https://www.tandfonline.com/doi/full/10.1080/01621459.2022.2161387)|JASA|2023.03|[R](https://github.com/Nago2020/Jasacc)||
 |CopulaDeepSurvival|[Copula-Based Deep Survival Models for Dependent Censoring](https://proceedings.mlr.press/v216/gharari23a/gharari23a.pdf)|UAI|2023.06|[PyTorch](https://github.com/rgklab/copula_based_deep_survival)||
 |DCSurvival|[Deep Copula-Based Survival Analysis for Dependent Censoring with Identifiability Guarantees](https://arxiv.org/pdf/2312.15566.pdf)|AAAI|2023.12|[PyTorch](https://github.com/WeijiaZhang24/DCSurvival)||
 |PSA|[Proximal survival analysis to handle dependent right censoring](https://academic.oup.com/jrsssb/advance-article-abstract/doi/10.1093/jrsssb/qkae037/7674899?redirectedFrom=fulltext)|JRSS: Series B|2024.05|||
+|HACSurv|[HACSurv: A Hierarchical Copula-Based Approach for Survival Analysis with Dependent Competing Risks](https://arxiv.org/pdf/2410.15180)|AIStats|2025.02|[PyTorch](https://github.com/Raymvp/HACSurv)||
+|SC-Net|[Survival Analysis via Density Estimation](https://openreview.net/forum?id=z9SRjXPf8T)|ICML|2025.02|[PyTorch](https://github.com/CyberAgentAILab/cenreg)||
 ***
 
 ## Synthetic Data Generation
