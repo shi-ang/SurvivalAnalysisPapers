@@ -154,6 +154,7 @@ Last Update Time: 2025.06.07
 |Deep-CSA|[Deep-CSA: Deep Contrastive Learning for Dynamic Survival Analysis with Competing Risks](https://ieeexplore.ieee.org/abstract/document/9756287)|IEEE JBHI|2022.04|||
 |DeepPseudo|[DeepPseudo: Pseudo Value Based Deep Learning Models for Competing Risk Analysis](https://arxiv.org/pdf/2207.05247.pdf)|KDD DSHealth Workshop|2022.08|||
 |SurvivalBoost|[Survival Models: Proper Scoring Rule and Stochastic Optimization with Competing Risks](https://arxiv.org/pdf/2410.16765)|AIStats|2025.02|||
+|MENSA|[MENSA: A Multi-Event Network for Survival Analysis with Trajectory-based Likelihood Estimation](https://proceedings.mlr.press/v297/lillelund26a.html)|ML4H|2026|[PyTorch](https://github.com/thecml/mensa)||
 ***
 
 ## Generalized Survival Analysis Methods
