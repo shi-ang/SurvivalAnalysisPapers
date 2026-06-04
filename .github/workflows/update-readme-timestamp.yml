@@ -1,0 +1,62 @@
+name: Update README timestamp
+
+on:
+  push:
+    paths:
+      - README.md
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme-timestamp:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Refresh README last-updated badge
+        run: |
+          python <<'PY'
+          import re
+          import subprocess
+          from datetime import datetime, timezone
+          from pathlib import Path
+          from urllib.parse import quote
+
+          readme = Path("README.md")
+          text = readme.read_text()
+
+          timestamp = subprocess.check_output(
+              ["git", "log", "-1", "--format=%cI", "--", "README.md"],
+              text=True,
+          ).strip()
+          updated_at = datetime.fromisoformat(timestamp.replace("Z", "+00:00")).astimezone(
+              timezone.utc
+          )
+          display = updated_at.strftime("%Y-%m-%d %H:%M UTC")
+          badge = (
+              "<!-- README_LAST_UPDATED_BADGE:START -->\n\n"
+              f"[![Last updated](https://img.shields.io/badge/last%20updated-{quote(display, safe='')}-blue)](#survival-analysis-paper-list)\n\n"
+              "<!-- README_LAST_UPDATED_BADGE:END -->"
+          )
+
+          updated = re.sub(
+              r"<!-- README_LAST_UPDATED_BADGE:START -->.*?<!-- README_LAST_UPDATED_BADGE:END -->",
+              badge,
+              text,
+              flags=re.DOTALL,
+          )
+          if updated == text:
+              raise SystemExit("README last-updated badge marker was not found")
+          readme.write_text(updated)
+          PY
+
+      - name: Commit README timestamp update
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update README timestamp [skip ci]"
+          file_pattern: README.md
