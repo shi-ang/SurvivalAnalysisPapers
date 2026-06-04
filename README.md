@@ -4,7 +4,7 @@ A curated reading list of papers and resources in survival analysis, with an emp
 
 <!-- README_LAST_UPDATED_BADGE:START -->
 
-[![Last updated](https://img.shields.io/badge/last%20updated-2026-06-04%2000%3A20%20UTC-blue)](#survival-analysis-paper-list)
+[![Last updated](https://img.shields.io/badge/last%20updated-2026-06-04%2000%3A25%20UTC-blue)](#survival-analysis-paper-list)
 
 <!-- README_LAST_UPDATED_BADGE:END -->
 
